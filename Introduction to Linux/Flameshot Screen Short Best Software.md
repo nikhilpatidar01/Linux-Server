@@ -1,6 +1,4 @@
-Here’s the English translation of the provided text about Flameshot:
-
----
+### **Best Screenshot Software of all Windowss**
 
 Flameshot is a free and open-source screenshot tool that works on all Windows platforms. It is very easy to use and has many useful features.
 
