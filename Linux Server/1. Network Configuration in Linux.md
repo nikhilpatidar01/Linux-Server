@@ -1,0 +1,226 @@
+
+
+# Network Configuration in Linux
+
+## Network Configuration Basics
+
+The following commands help manage and verify network settings:
+
+```bash
+# nmtui
+```
+Opens a text-based user interface for configuring network connections.
+
+```bash
+# hostname
+```
+Displays or sets the system's hostname.
+
+```bash
+# hostname -i
+```
+Shows the system's IP address associated with the hostname.
+
+```bash
+# hostname -I
+```
+Lists all assigned IP addresses.
+
+```bash
+# ip addr show
+```
+Displays details of all network interfaces.
+
+```bash
+# vim /etc/hostname
+```
+To manually set the hostname to `server2.armour.local`, update `/etc/hostname`:
+
+```bash
+server2.armour.local
+```
+
+```bash
+# ifconfig
+```
+Displays network interface configurations.
+
+```bash
+# ip ad
+```
+Similar to `ip addr show`, lists network interfaces and IPs.
+
+**Check Public IP Address:**
+- [ifconfig.me](http://ifconfig.me/) — A web-based method to check public IP.
+```bash
+# curl -4 ifconfig.me
+```
+
+- [icanhazip.com](https://icanhazip.com/) — Another web-based method to check public IP.
+```bash
+# curl -4 icanhazip.com
+```
+
+```bash
+# cat /etc/resolv.conf
+```
+Shows DNS resolver settings.
+
+```bash
+# route -n
+```
+Displays the kernel routing table.
+
+```bash
+# ip route
+```
+Displays and manipulates the system's routing table (part of the `iproute2` package).
+
+---
+
+## Configuring Static IP Address
+
+To configure a static IP address using NetworkManager:
+
+1. Navigate to the NetworkManager system connections directory:
+   ```bash
+   # cd /etc/NetworkManager/system-connections/
+   ```
+
+2. Open the connection file (`enp0s3.nmconnection`) with `vim`:
+   ```bash
+   # vim enp0s3.nmconnection
+   ```
+
+3. Modify the configuration file with a static IP:
+   ```ini
+   [connection]
+   id=enp0s3
+   uuid=668303d1-82bf-0f35-27891838
+   type=ethernet
+   autoconnect-priority=-999
+   interface-name=enp0s3
+   timestamp=1720179824
+
+   [ethernet]
+
+   [ipv4]
+   address1=192.168.1.31/24,192.168.1.1
+   dns=8.8.8.8;
+   method=manual
+
+   [ipv6]
+   addr-gen-mode=eui64
+   method=ignore
+   ```
+
+---
+
+## Configuring Dynamic IP (DHCP)
+
+To configure a DHCP (Dynamic IP):
+
+1. Navigate to the NetworkManager system connections directory:
+   ```bash
+   # cd /etc/NetworkManager/system-connections/
+   ```
+
+2. Open the connection file (`enp0s3.nmconnection`) with `vim`:
+   ```bash
+   # vim enp0s3.nmconnection
+   ```
+
+3. Modify the configuration file for DHCP:
+   ```ini
+   [connection]
+   id=enp0s3
+   uuid=a32babc0-fbae-3089-b858-40d62bd6d445
+   type=ethernet
+   autoconnect-priority=-999
+   interface-name=enp0s3
+   timestamp=1739793171
+
+   [ethernet]
+
+   [ipv4]
+   method=auto
+
+   [ipv6]
+   addr-gen-mode=eui64
+   method=disabled
+
+   [proxy]
+   method=auto
+   ```
+
+> **Note:** Enabling DHCP allows the system to obtain an IP address automatically.
+
+---
+
+### Example Static IP Configuration in NetworkManager
+
+```ini
+[connection]
+id=enp0s3
+uuid=a32babc0-fbae-3089-b858-40d62bd6d445
+type=ethernet
+autoconnect-priority=-999
+interface-name=enp0s3
+timestamp=1739793171
+
+[ethernet]
+
+[ipv4]
+address1=192.168.1.34/24
+address2=192.168.1.35/24
+address3=192.168.1.36/24
+address4=192.168.1.37/24
+dns=8.8.8.8;8.8.4.4;
+gateway=192.168.1.1
+method=manual
+
+[ipv6]
+addr-gen-mode=eui64
+method=disabled
+
+[proxy]
+```
+
+---
+
+## Network Configuration in Debian
+
+Edit the `/etc/network/interfaces` file:
+
+```ini
+# This file describes the network interfaces available on your system
+# and how to activate them. For more information, see interfaces(5).
+
+source /etc/network/interfaces.d/*
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+# The primary network interface
+allow-hotplug enp0s3
+iface enp0s3 inet static
+    address 192.168.1.28
+    netmask 255.255.255.0
+    network 192.168.1.0
+    broadcast 192.168.1.255
+    gateway 192.168.1.1
+    dns-nameservers 8.8.8.8
+
+# This is an autoconfigured IPv6 interface
+iface enp0s3 inet6 auto
+```
+
+---
+
+**Additional Information:**
+- **`ifconfig` Command:** Used to configure and retrieve information about network interfaces. Although deprecated in favor of `ip` commands, it is still widely used.
+- **`ip` Command:** A modern tool to manipulate routing, devices, policy routing, and tunnels.
+- **NetworkManager:** A service that manages network connections automatically, often used in modern Linux distributions.
+
+---
