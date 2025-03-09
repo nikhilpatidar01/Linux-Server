@@ -22,9 +22,9 @@
 - ⚡ [Linux Keyboard Shortcuts Cheat Sheet](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Basic%20Command%20of%20Linux/5.%20Linux%20Keyboard%20Shortcuts%20Cheat%20Sheet.md)
 
 ## ✍️ Text Editors
-- 📝 [`cat `](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Text%20Editor/5.%20Cat%20Command%20in%20Linux.md)
-- 🖊️ [`Nano, Vim, Gedit, and VS Code Text Editor in Linux`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Text%20Editor/1.%20Nano%2C%20Vim%2C%20Gedit%2C%20and%20VS%20Code%20Text%20Editor%20in%20Linux.md)
-- 📝 [`vim`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Text%20Editor/2.%20vim%20Editor.md)
+- 📝 [`cat `](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Text%20Editor/1.%20cat%20Command%20in%20Linux.md)
+- 🖊️ [`Nano, Vim, Gedit, and VS Code Text Editor in Linux`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Text%20Editor/2.%20nano%2C%20vim%2C%20gedit%2C%20and%20VS%20Code%20Text%20Editor%20in%20Linux.md)
+- 📝 [`vim`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Text%20Editor/3.%20vim%20Editor.md)
 
 ## 🎨 GRC (Generic Colouriser) 
 - 🎨 [`GRC (Generic Colouriser) in Linux `](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/GRC%20(Generic%20Colouriser)%20/1.%20GRC%20(Generic%20Colouriser)%20Installation.md)
