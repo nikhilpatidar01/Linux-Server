@@ -49,12 +49,11 @@
 - 📌 [`whereis`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/File%20Finding%20Commands/1.%20tree,%20find,%20which,%20whichis%20and%20whereis.md#4--whereis-command)
 
 ## 👥 Users, Groups, and Permissions
-- 🖥️ [Types of Shells](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Linux-Shell-Introduction.md#shells-in-linux)
-- 🏢 [Users and Groups](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/User-and-Group-Management.md#user-management)
-- 📄 [`/etc/passwd` File](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/System%20File%20in%20Linux.md#-1-etcpasswd--user-account-information)
-- 🔐 [`/etc/shadow` File](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/System%20File%20in%20Linux.md#-2-etcshadow--secure-password-storage)
-- 📂 [`/etc/group` File](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/System%20File%20in%20Linux.md#-3-etcgroup--group-information)
-- 🔏 [`/etc/gshadow` File](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/System%20File%20in%20Linux.md#-4-etcgshadow--secure-group-management)
+- 🏢 [User & Group Management in Linux](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/User%20and%20Group%20Managment%20in%20Linux/1.%20User%20and%20Group%20Managment%20in%20Linux.md#-user--group-management-in-linux-)
+- 📄 [`/etc/passwd` File](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/User%20and%20Group%20Managment%20in%20Linux/2.%20System%20Files%20in%20Linux.md#-1-etcpasswd--user-account-information)
+- 🔐 [`/etc/shadow` File](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/User%20and%20Group%20Managment%20in%20Linux/2.%20System%20Files%20in%20Linux.md#-2-etcshadow--secure-password-storage)
+- 📂 [`/etc/group` File](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/User%20and%20Group%20Managment%20in%20Linux/2.%20System%20Files%20in%20Linux.md#-3-etcgroup--group-information)
+- 🔏 [`/etc/gshadow` File](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/User%20and%20Group%20Managment%20in%20Linux/2.%20System%20Files%20in%20Linux.md#-4-etcgshadow--secure-group-management)
 - ➕ [Adding Users](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/useradd-adduser-Command.md#1-useradd-command)
 - 🔄 [Modifying User Accounts](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/usermod-userdel-commands.md#user-modify-usermod)
 - ❌ [Deleting User Accounts](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/usermod-userdel-commands.md#user-deletion-userdel)
