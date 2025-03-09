@@ -111,7 +111,7 @@
   - 📦 [scp](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Network%20Clients/1.%20Network%20Client%20Tolls%20in%20Linux.md#-scp-secure-copy-command-in-linux)
   - 📂 [ftp](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Network%20Clients/1.%20Network%20Client%20Tolls%20in%20Linux.md#-ftp-file-transfer-protocol-in-linux)
   - 🌍 [wget](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Network%20Clients/1.%20Network%20Client%20Tolls%20in%20Linux.md#-wget-command-in-linux)
-- 🔄 `rsync`
+  - 🔄 [rsync](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Network%20Clients/1.%20Network%20Client%20Tolls%20in%20Linux.md#-rsync-command-in-linux)
 - 📌 Checking the Status of Services
   - ✅ Is service active?
   - ✅ Is service enabled?
