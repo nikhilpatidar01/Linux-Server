@@ -12,8 +12,8 @@
 ## 🏗️ Linux Basic Commands
 - 🗺️ [All Basic Command in Linux](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Basic%20Command%20of%20Linux/1.%20Basic%20Command%20of%20Linux.md)
 - 📁 [Creating and Removing Directories and Files (`mkdir`, `touch`, `rmdir`, `rm`)](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Basic%20Command%20of%20Linux/4.%20rmdir%20and%20rm%20command.md)
-- 🔄 [Copying, Moving, and Renaming Files and Directories](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Basic%20Command%20of%20Linux/3.%20cp%20and%20mv%20Command%20in%20Centos.md)
-- 📜 [Using the `cat` Command](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Basic%20Command%20of%20Linux/1.%20Basic%20Command%20of%20Linux.md)
+- 🔄 [Copying, Moving, and Renaming Files and Directories](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Basic%20Command%20of%20Linux/3.%20cp%20and%20mv%20Command%20in%20Centos.md#linux-commands-cp-and-mv-)
+- 📜 [Using the `cat` Command](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Basic%20Command%20of%20Linux/1.%20Basic%20Command%20of%20Linux.md#1-cat-%E0%A4%95%E0%A4%AE%E0%A4%BE%E0%A4%82%E0%A4%A1)
 - 🔗 [Wildcards - Globbing Patterns](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Basic%20Command%20of%20Linux/2.%20Wildcards%20-%20Globbing%20Patterns.md)
 - ➡️ [Pipes and Redirects](https://github.com/nikhilpatidar01/Linux-Server/tree/Master/Pipes%20and%20Redirects)
 - 📦 [Archiving and Compression](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Compress%20Tools/1.%20Compress%20Tools.md)
