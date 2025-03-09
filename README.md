@@ -18,7 +18,7 @@
 - ➡️ [Pipes and Redirects](https://github.com/nikhilpatidar01/Linux-Server/tree/Master/Pipes%20and%20Redirects)
 - 📦 [Archiving and Compression](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Compress%20Tools/1.%20Compress%20Tools.md)
 - 🗜️ [Compression Tools (`zip`, `gzip`, `bzip`, `tar`, `7zip`)](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Compress%20Tools/1.%20Compress%20Tools.md)
-- 🎁 [Archiving Tools]((https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Compress%20Tools/1.%20Compress%20Tools.md))
+- 🎁 [Archiving Tools](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Compress%20Tools/1.%20Compress%20Tools.md)
 - ⚡ [Linux Keyboard Shortcuts Cheat Sheet](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Basic%20Command%20of%20Linux/5.%20Linux%20Keyboard%20Shortcuts%20Cheat%20Sheet.md)
 
 ## ✍️ Text Editors
