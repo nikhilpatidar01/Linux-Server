@@ -137,7 +137,7 @@
 - 🔥 [ufw` (Uncomplicated Firewall)](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Firewalls%20In%20Linux/4.%20UFW%20(Uncomplicated%20Firewall).md#-ufw-uncomplicated-firewall--installation--configuration-guide-ubuntudebian--centosrhel)
 
 ### 📊 Memory Management and System Performance Commands
-- 📈 [`free[`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Memory%20Management%20and%20System%20Performance%20Commands/1.%20Memory%20Management%20and%20System%20Performance%20Commands.md#-syntax)
+- 📈 [`free`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Memory%20Management%20and%20System%20Performance%20Commands/1.%20Memory%20Management%20and%20System%20Performance%20Commands.md#-syntax)
 - 📈 [`vmstat`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Memory%20Management%20and%20System%20Performance%20Commands/1.%20Memory%20Management%20and%20System%20Performance%20Commands.md#-syntax-1)
 - 📊 [`iostat`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Memory%20Management%20and%20System%20Performance%20Commands/1.%20Memory%20Management%20and%20System%20Performance%20Commands.md#-iostat--monitor-cpu-and-disk-io-performance)
 - 🔎 [`lsof`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Memory%20Management%20and%20System%20Performance%20Commands/1.%20Memory%20Management%20and%20System%20Performance%20Commands.md#-lsof--list-open-files-in-linux)
