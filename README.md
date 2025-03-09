@@ -7,7 +7,7 @@
 - 🔑 [Directory Structure of Linux](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Introduction%20to%20Linux/4.%20Directory%20Structure%20of%20Linux.md)
 - 📂 [Directory Structure of Linux](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Directory-Structure-of-Linux.md#linux-directory-structure)
 - 💾 [Linux Installation](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Introduction%20to%20Linux/3.%20CentOS%20Installation.md)
-- 🔐 [Login Methods in Linux](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Login-Methods-in-Linux.md#linux-login-methods)
+- 🔐 [Remote Shell in Linux](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Introduction%20to%20Linux/5.%20Remote%20Shell%20in%20Linux.md)
 - 🔄 [Run Levels in Linux](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Introduction%20to%20Linux/6.%20Run%20Level.md)
 
 ## 🏗️ Linux Basic Commands
