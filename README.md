@@ -31,11 +31,11 @@
 
 ## 🔍 String Processing and Finding Files
 
-- 🔝 [`head`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/String%20Processing/7.%20Head,%20Tail,%20Sort,%20Watch%20and%20Line%20Counting.md#head)
-- 🔚 [`tail`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/String%20Processing/7.%20Head,%20Tail,%20Sort,%20Watch%20and%20Line%20Counting.md#tail)
-- 🔢 [`watch`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/String%20Processing/7.%20Head,%20Tail,%20Sort,%20Watch%20and%20Line%20Counting.md#watch-command)
-- 📑 [`wc`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/String%20Processing/7.%20Head,%20Tail,%20Sort,%20Watch%20and%20Line%20Counting.md#wc)
-- 📑 [`sort`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/String%20Processing/7.%20Head,%20Tail,%20Sort,%20Watch%20and%20Line%20Counting.md#sort)
+- 🔝 [`head`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/String%20Processing/6.%20Head,%20Tail,%20Sort,%20Watch%20and%20Line%20Counting.md#head)
+- 🔚 [`tail`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/String%20Processing/6.%20Head,%20Tail,%20Sort,%20Watch%20and%20Line%20Counting.md#tail)
+- 🔢 [`watch`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/String%20Processing/6.%20Head,%20Tail,%20Sort,%20Watch%20and%20Line%20Counting.md#watch-command)
+- 📑 [`wc`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/String%20Processing/6.%20Head,%20Tail,%20Sort,%20Watch%20and%20Line%20Counting.md#wc)
+- 📑 [`sort`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/String%20Processing/6.%20Head,%20Tail,%20Sort,%20Watch%20and%20Line%20Counting.md#sort)
 - 🔍 [`grep`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/String%20Processing/2.%20Grep%20Command.md)
 - ✂️ [`Grep cut`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/String%20Processing/3.%20Grep%20Cut%20and%20Paste%20Command%20in%20Linux.md)
 - 🔗 [`grep paste`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/String%20Processing/3.%20Grep%20Cut%20and%20Paste%20Command%20in%20Linux.md)
