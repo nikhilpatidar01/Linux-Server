@@ -2,15 +2,13 @@
 
 ## 📌 Introduction to Linux
 - 📜 [UNIX, Linux, and Open Source](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Introduction%20to%20Linux/1.%20Introduction%20of%20Linux.md)
-- 🖥️ [What is Linux?](https://github.com/nikhilpatidar01/Linux-Server/tree/Master/Introduction%20to%20Linux)
-- 📅 [History and Evolution of Linux](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Introduction-to-Linux.md#history-and-evolution-of-linux)
-- ⚙️ [Understanding the Linux Kernel](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Introduction-to-Linux.md#what-is-the-linux-kernel)
-- 🔑 [Key Features of Linux](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Introduction-to-Linux.md#linux-features)
-- 📦 [Linux Distributions](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Introduction-to-Linux.md#linux-distributions)
+- 🖥️ [What is Linux?](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Introduction%20to%20Linux/1.%20Introduction%20of%20Linux.md)
+- 📅 [Linux Distributions](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Introduction%20to%20Linux/2.%20Linux%20Distributions.md)
+- 🔑 [Directory Structure of Linux](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Introduction%20to%20Linux/4.%20Directory%20Structure%20of%20Linux.md)
 - 📂 [Directory Structure of Linux](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Directory-Structure-of-Linux.md#linux-directory-structure)
-- 💾 [Linux Installation](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Centos-9-installation.md#centos-9-installation-gui)
+- 💾 [Linux Installation](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Introduction%20to%20Linux/3.%20CentOS%20Installation.md)
 - 🔐 [Login Methods in Linux](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Login-Methods-in-Linux.md#linux-login-methods)
-- 🔄 [Run Levels in Linux](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Run-Level.md#runlevels-in-linux)
+- 🔄 [Run Levels in Linux](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Introduction%20to%20Linux/6.%20Run%20Level.md)
 
 ## 🏗️ Linux Basic Commands
 - 🗺️ [Finding Your Way (`ls`, `pwd`, `cd`)](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Basic-Commands.md#file-and-directory-management)
