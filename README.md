@@ -43,12 +43,11 @@
 - 🛠️ [`sed`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/String%20Processing/5.%20Sed%20Command.md)
 
 ### 🔎 Finding Files Commands:
-- 🌳 [`tree`](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Finding-Files.md#1-tree-command)
+- 🌳 [`tree`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/String%20Processing/6.%20File%20Finding.md#-linux-file-finding--tree-command-guide-)
 - 🔦 [`find`](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Finding-Files.md#2-find-command)
 - ❓ [`which`](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Finding-Files.md#2-which-command)
 - 📌 [`whereis`](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Finding-Files.md#3-whereis-command)
-- 🔍 [`File Finding`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/String%20Processing/6.%20File%20Finding.md)
-- 
+
 ## 👥 Users, Groups, and Permissions
 - 🖥️ [Types of Shells](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Linux-Shell-Introduction.md#shells-in-linux)
 - 🏢 [Users and Groups](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/User-and-Group-Management.md#user-management)
