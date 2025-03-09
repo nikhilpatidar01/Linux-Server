@@ -45,8 +45,8 @@
 ### 🔎 Finding Files Commands:
 - 🌳 [`tree`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/File%20Finding%20Commands/1.%20tree,%20find,%20which,%20whichis%20and%20whereis.md#1--tree-command)
 - 🔦 [`find`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/File%20Finding%20Commands/1.%20tree,%20find,%20which,%20whichis%20and%20whereis.md#2--find-command)
-- ❓ [`which`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/File%20Finding%20Commands/1.%20tree,%20find,%20which,%20whichis%20and%20whereis.md#7-%EF%B8%8F-which-command)
-- 📌 [`whereis`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/File%20Finding%20Commands/1.%20tree,%20find,%20which,%20whichis%20and%20whereis.md#8--whereis-command)
+- ❓ [`which`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/File%20Finding%20Commands/1.%20tree,%20find,%20which,%20whichis%20and%20whereis.md#3-%EF%B8%8F-which-command)
+- 📌 [`whereis`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/File%20Finding%20Commands/1.%20tree,%20find,%20which,%20whichis%20and%20whereis.md#4--whereis-command)
 
 ## 👥 Users, Groups, and Permissions
 - 🖥️ [Types of Shells](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Linux-Shell-Introduction.md#shells-in-linux)
