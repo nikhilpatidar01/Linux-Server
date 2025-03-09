@@ -1,0 +1,350 @@
+Here’s your command reference with emojis added for better readability:
+
+---
+
+### **🔍 Finding Files Command**
+
+---
+
+### **1. 🌳 `tree` Command**  
+The `tree` command displays the directory structure in a tree-like format.
+
+📦 **Install Tree**  
+```bash
+yum install tree
+```
+
+📜 **Basic Usage**  
+```bash
+tree
+```
+
+📂 **Display Directories Only**  
+```bash
+tree -d
+```
+
+📏 **Limit the Depth**  
+```bash
+tree -d -L 1  # Show only level 1 directories
+tree -d -L 2  # Show directories up to level 2
+```
+
+🕵️‍♂️ **Show Hidden Files**  
+```bash
+tree -a
+```
+
+📍 **Specify Location**  
+```bash
+tree -d /var/log/
+```
+
+🔄 **Reverse Sorting**  
+```bash
+tree -v -r
+```
+
+⏳ **Sort by Modification Time**  
+```bash
+tree -v -t
+```
+
+---
+
+### **2. 🔎 `find` Command**  
+The `find` command is used to search for files and directories.
+
+📂 **Find Everything in the Current Directory**  
+```bash
+find .
+```
+
+🔡 **Search by Name**  
+```bash
+find . -name "user"
+find . -name "user*"  # Wildcard
+```
+
+📄 **Search for Files Only**  
+```bash
+find / -name "data" -type f
+```
+
+📁 **Search for Directories Only**  
+```bash
+find / -name "data" -type d
+```
+
+🔠 **Case-insensitive Search**  
+```bash
+find / -iname "user*"
+```
+
+👤 **Find Files by User**  
+```bash
+find / -user suraj
+```
+
+🔐 **Find Files by Permission**  
+```bash
+find /etc/ -perm 777
+```
+
+🚫 **Ignore Errors**  
+```bash
+find / -name "passwd" 2> /dev/null
+```
+
+---
+
+### **3. 📁 Empty Files and Directories**
+
+⚠️ **Find Empty Files & Directories**  
+```bash
+find / -empty
+```
+
+📁 **Find Only Empty Directories**  
+```bash
+find / -empty -type d
+```
+
+📄 **Find Only Empty Files**  
+```bash
+find / -empty -type f
+```
+
+---
+
+### **4. 🔐 File Permissions**
+
+📖 **Find Readable Files**  
+```bash
+find / -readable
+```
+
+✏️ **Find Writable Files**  
+```bash
+find / -writable
+```
+
+🚀 **Find Executable Files**  
+```bash
+find / -executable
+```
+
+👤 **Find Files Owned by a User**  
+```bash
+find / -user suraj
+```
+
+📜 **Find Files with Specific Permissions**  
+```bash
+find / -perm -u=w  # User has write permissions
+find / -perm -g=w  # Group has write permissions
+find / -perm -o=w  # Others have write permissions
+```
+
+---
+
+### **5. ⚙️ `-exec` Command**
+
+🛠️ **Execute Command on Search Results**  
+```bash
+find /var/log -type f -name "*.log" -exec grep "root" {} \;
+```
+
+📆 **Run Date Command**  
+```bash
+find . -exec date \;
+```
+
+🆔 **Run ID Command**  
+```bash
+find . -exec id \;
+```
+
+💻 **Run System Info Command**  
+```bash
+find . -exec uname \;
+```
+
+---
+
+### **6. 🏷️ Finding Files with Specific Criteria**
+
+🔍 **Multiple Patterns Search**  
+```bash
+find / -type f \( -name "*.log" -o -name "*ple" -o -name "*pass" \)
+```
+
+---
+
+### **7. 📏 Max Depth and Search Limitation**
+
+📉 **Limit Search Depth**  
+```bash
+find / -maxdepth 2 -name "pass*"
+```
+
+---
+
+### **🔍 Quick File Search Using `mlocate`**
+
+🚀 **Install `mlocate`**  
+```bash
+yum install mlocate
+```
+
+🔄 **Update Database**  
+```bash
+updatedb
+```
+
+📊 **Count Entries in Database**  
+```bash
+locate -S
+```
+
+📌 **Display Database File Location**  
+```bash
+cat /var/lib/mlocate/mlocate.db
+```
+
+🔍 **Search for a File**  
+```bash
+locate messages
+```
+
+🔠 **Case-insensitive Search**  
+```bash
+locate -i root
+```
+
+📜 **Use Regular Expressions**  
+```bash
+locate -r '\.log$'
+```
+
+🧮 **Count the Number of Results**  
+```bash
+locate -c -i *pass*
+```
+
+📏 **Limit Output to First 20 Results**  
+```bash
+locate "*.html" -n 20
+```
+
+📖 **Show Specific Lines from Locate Output**  
+```bash
+locate "*.log" | sed -n '10,20p'
+```
+
+---
+
+### **🛠️ `which` Command**  
+Finds the path of an executable command.
+
+🖥️ **Find the `ls` command location**  
+```bash
+which ls
+```
+
+📦 **Find the `zip` command location**  
+```bash
+which zip
+```
+
+---
+
+### **🔍 `whereis` Command**  
+Finds the binary, source, and manual pages for a command.
+
+🖥️ **Find `ls` command details**  
+```bash
+whereis ls
+```
+
+📂 **Find `zip` command details**  
+```bash
+whereis zip
+```
+
+📜 **Find `cp` command details**  
+```bash
+whereis cp
+```
+
+---
+
+### **📄 `diff` Command**  
+Compares two files line by line.
+
+⚖️ **Compare Two Files**  
+```bash
+diff passwd passwd2
+```
+
+📑 **Contextual Comparison**  
+```bash
+diff -c passwd passwd2
+```
+
+🔄 **Side-by-Side Comparison**  
+```bash
+diff -y passwd passwd2
+```
+
+🌈 **Visual Comparison with `vimdiff`**  
+```bash
+vimdiff passwd passwd2
+```
+
+---
+
+### **🔍 `whereis` Command**  
+The `whereis` command searches for the **binary**, **source**, and **manual pages** for a command.  
+
+🖥️ **Find `ls` command details**  
+```bash
+whereis ls
+```
+📂 **Find `zip` command details**  
+```bash
+whereis zip
+```
+📜 **Find `cp` command details**  
+```bash
+whereis cp
+```
+📑 **Find `bash` binary, source, and manual**  
+```bash
+whereis bash
+```
+📌 **Limit Search to Specific Locations**  
+To search only in specific directories, use `-B`, `-M`, or `-S`:  
+```bash
+whereis -b ls  # Only binary  
+whereis -m ls  # Only manual pages  
+whereis -s ls  # Only source files  
+```
+
+🛠️ **Example Output:**  
+```bash
+ls: /bin/ls /usr/share/man/man1/ls.1.gz
+```
+- `/bin/ls` → Binary location  
+- `/usr/share/man/man1/ls.1.gz` → Manual page  
+
+---
+
+### **📌 Summary**
+
+- **🌳 `tree`** → Displays directory structure in a tree format.  
+- **🔎 `find`** → Searches for files and directories.  
+- **🖥️ `which`** → Finds the path of an executable.  
+- **🔍 `whereis`** → Finds the binary, manual, and source files.  
+- **⚖️ `diff`** → Compares two files line by line.  
+- **🌈 `vimdiff`** → Visual file comparison.
