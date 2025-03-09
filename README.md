@@ -43,10 +43,10 @@
 - 🛠️ [`sed`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/String%20Processing/5.%20Sed%20Command.md)
 
 ### 🔎 Finding Files Commands:
-- 🌳 [`tree`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/String%20Processing/6.%20File%20Finding.md#-linux-file-finding--tree-command-guide-)
-- 🔦 [`find`](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Finding-Files.md#2-find-command)
-- ❓ [`which`](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Finding-Files.md#2-which-command)
-- 📌 [`whereis`](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Finding-Files.md#3-whereis-command)
+- 🌳 [`tree`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/File%20Finding%20Commands/1.%20tree,%20find,%20which,%20whichis%20and%20whereis.md#1--tree-command)
+- 🔦 [`find`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/File%20Finding%20Commands/1.%20tree,%20find,%20which,%20whichis%20and%20whereis.md#2--find-command)
+- ❓ [`which`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/File%20Finding%20Commands/1.%20tree,%20find,%20which,%20whichis%20and%20whereis.md#7-%EF%B8%8F-which-command)
+- 📌 [`whereis`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/File%20Finding%20Commands/1.%20tree,%20find,%20which,%20whichis%20and%20whereis.md#8--whereis-command)
 
 ## 👥 Users, Groups, and Permissions
 - 🖥️ [Types of Shells](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Linux-Shell-Introduction.md#shells-in-linux)
