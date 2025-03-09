@@ -144,14 +144,4 @@
 - 🌐 [`kill`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Memory%20Management%20and%20System%20Performance%20Commands/1.%20Memory%20Management%20and%20System%20Performance%20Commands.md#-kill-command-in-linux--terminate-a-process)
 
 ---
-### 🤝 Contributing
-Feel free to fork this repository and contribute to the guide by submitting pull requests.
 
-<a href="https://github.com/InfoSecWarrior/Linux-Essentials/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=InfoSecWarrior/Linux-Essentials&max=300">
-</a>
-</p>
-
-
-### 📜 License
-This project is licensed under the MIT License.
