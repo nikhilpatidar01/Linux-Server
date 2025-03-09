@@ -99,17 +99,18 @@
   - 🖥️ [RAID Levels](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Raid%20Overview%20in%20Linux/3.%20RAID%20Level%20Commands.md#%EF%B8%8F-raid-level-commands-in-linux--%EF%B8%8F)
 
 ## 🌐 Network Configuration and Controlling Services
-- 🌍 [Network Configuration](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Network-Configuration.md#network-configuration-in-linux)
-- 🛠️ [Network Tools](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Netwrok-Monitoring.md#installation)
-  - 🔄 [`traceroute`](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Network-Tools.md#traceroute)
-  - 🔄 [`tracepath`](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Network-Tools.md#tracepath)
-  - 📡 [`netstat`](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Netwrok-Monitoring.md#using-netstat)
-  - 📡 [`ss`](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Netwrok-Monitoring.md#using-ss)
+- 🌍 [Network Configuration](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Network%20Configuration%20%20in%20Linux/1.%20Network%20Configuration%20in%20Linux.md#network-configuration-in-linux)
+- 🛠️ Network Tools
+  - 🔄 [`ifconfig`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Network%20Configuration%20%20in%20Linux/2.%20ifconfig%20(Interface%20Configuration).md#1-ifconfig-command-deprecated-in-modern-linux-distributions)
+  - 🔄 [`traceroute`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Network%20Configuration%20%20in%20Linux/2.%20ifconfig%20(Interface%20Configuration).md#traceroute-command)
+  - 🔄 [`tracepath`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Network%20Configuration%20%20in%20Linux/2.%20ifconfig%20(Interface%20Configuration).md#tracepath-command)
+  - 📡 [`netstat`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Network%20Configuration%20%20in%20Linux/3.%20Network%20Monitoring%20-%20netstat%20and%20ss%20Commands.md#network-monitoring-with-netstat-and-ss)
+  - 📡 [`ss`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Network%20Configuration%20%20in%20Linux/3.%20Network%20Monitoring%20-%20netstat%20and%20ss%20Commands.md#ss-commands)
 - 🌐 Network Clients
-  - 🔐 `ssh`
-  - 📦 `scp`
-  - 📂 `ftp`
-  - 🌍 [`wget`](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Wget.md)
+  - 🔐 [ssh](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Network%20Clients/1.%20Network%20Client%20Tolls%20in%20Linux.md#-ssh-secure-shell-commands-in-linux)
+  - 📦 [scp](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Network%20Clients/1.%20Network%20Client%20Tolls%20in%20Linux.md#-scp-secure-copy-command-in-linux)
+  - 📂 [ftp](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Network%20Clients/1.%20Network%20Client%20Tolls%20in%20Linux.md#-ftp-file-transfer-protocol-in-linux)
+  - 🌍 [wget](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Network%20Clients/1.%20Network%20Client%20Tolls%20in%20Linux.md#-wget-command-in-linux)
 - 🔄 `rsync`
 - 📌 Checking the Status of Services
   - ✅ Is service active?
