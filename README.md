@@ -113,9 +113,10 @@
   - 🌍 [wget](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Network%20Clients/1.%20Network%20Client%20Tolls%20in%20Linux.md#-wget-command-in-linux)
   - 🔄 [rsync](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Network%20Clients/1.%20Network%20Client%20Tolls%20in%20Linux.md#-rsync-command-in-linux)
 - 📌 Checking the Status of Services
-  - ✅ Is service active?
-  - ✅ Is service enabled?
-  - 📜 Listing the Active/Inactive State of Loaded Units
+  - ✅ [service Status](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Service%20Management%20In%20Linux/1.%20Service%20Management%20in%20Linux.md#3-managing-services-with-sysvinit-older-linux-systems)
+  - ✅ [service Start](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Service%20Management%20In%20Linux/1.%20Service%20Management%20in%20Linux.md#starting-and-stopping-services)
+  - ✅ [service stop](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Service%20Management%20In%20Linux/1.%20Service%20Management%20in%20Linux.md#starting-and-stopping-services)
+  
 - 🔄 Starting, Restarting, and Stopping Services
 
 ## 📊 Process Management, and Monitoring Tools
