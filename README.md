@@ -2,7 +2,7 @@
 
 ## 📌 Introduction to Linux
 - 📜 [UNIX, Linux, and Open Source](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Introduction%20to%20Linux/1.%20Introduction%20of%20Linux.md)
-- 🖥️ [What is Linux?](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Introduction-to-Linux.md#what-is-linux)
+- 🖥️ [What is Linux?](https://github.com/nikhilpatidar01/Linux-Server/tree/Master/Introduction%20to%20Linux)
 - 📅 [History and Evolution of Linux](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Introduction-to-Linux.md#history-and-evolution-of-linux)
 - ⚙️ [Understanding the Linux Kernel](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Introduction-to-Linux.md#what-is-the-linux-kernel)
 - 🔑 [Key Features of Linux](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Introduction-to-Linux.md#linux-features)
