@@ -1,27 +1,25 @@
 <h1 align="center">🐧 Linux Essentials</h1>
 
 ## 📌 Introduction to Linux
-- 📜 [UNIX, Linux, and Open Source](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Introduction%20to%20Linux/1.%20Introduction%20of%20Linux.md)
+- 🐧 [UNIX, Linux, and Open Source](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Introduction%20to%20Linux/1.%20Introduction%20of%20Linux.md)
 - 🖥️ [What is Linux?](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Introduction%20to%20Linux/1.%20Introduction%20of%20Linux.md)
-- 📅 [Linux Distributions](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Introduction%20to%20Linux/2.%20Linux%20Distributions.md)
-- 🔑 [Directory Structure of Linux](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Introduction%20to%20Linux/4.%20Directory%20Structure%20of%20Linux.md)
-- 📂 [Directory Structure of Linux](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Directory-Structure-of-Linux.md#linux-directory-structure)
+- 🏠 [Linux Distributions](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Introduction%20to%20Linux/2.%20Linux%20Distributions.md)
+- 📂 [Directory Structure of Linux](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Introduction%20to%20Linux/4.%20Directory%20Structure%20of%20Linux.md)
 - 💾 [Linux Installation](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Introduction%20to%20Linux/3.%20CentOS%20Installation.md)
-- 🔐 [Remote Shell in Linux](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Introduction%20to%20Linux/5.%20Remote%20Shell%20in%20Linux.md)
-- 🔄 [Run Levels in Linux](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Introduction%20to%20Linux/6.%20Run%20Level.md)
+- 🌐 [Remote Shell in Linux](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Introduction%20to%20Linux/5.%20Remote%20Shell%20in%20Linux.md)
+- 🚦 [Run Levels in Linux](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Introduction%20to%20Linux/6.%20Run%20Level.md)
 
 ## 🏗️ Linux Basic Commands
-- 🗺️ [Finding Your Way (`ls`, `pwd`, `cd`)](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Basic-Commands.md#file-and-directory-management)
-- 📁 [Creating and Removing Directories and Files (`mkdir`, `touch`, `rmdir`, `rm`)](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Basic-Commands.md#file-operations)
-- 🔄 [Copying, Moving, and Renaming Files and Directories](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/cp-and-mv-command.md)
-- 📜 [Using the `cat` Command](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Text-Editor.md#1-cat-command)
-- 📖 [Using the `less` and `more` Commands]()
-- ➡️ [Pipes and Redirects](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Redirection-in-Linux.md#redirection-operators)
-- 📦 [Archiving and Compression](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Compress-Tool.md#compression-tools-guide)
-- 🗜️ [Compression Tools (`zip`, `gzip`, `bzip`, `tar`, `7zip`)](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Compress-Tool.md#bzip2-commands)
-- 🎁 [Archiving Tools](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Compress-Tool.md#create-a-tar-archive)
-- 🔗 [Symbolic Links](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Wildcards.md#wildcards-in-linux)
-- ⚡ [Shortcuts](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Linux-Shortcuts.md#linux-keyboard-shortcuts-cheat-sheet)
+- 🗺️ [All Basic Command in Linux](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Basic%20Command%20of%20Linux/1.%20Basic%20Command%20of%20Linux.md)
+- 📁 [Creating and Removing Directories and Files (`mkdir`, `touch`, `rmdir`, `rm`)](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Basic%20Command%20of%20Linux/4.%20rmdir%20and%20rm%20command.md)
+- 🔄 [Copying, Moving, and Renaming Files and Directories](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Basic%20Command%20of%20Linux/3.%20cp%20and%20mv%20Command%20in%20Centos.md)
+- 📜 [Using the `cat` Command](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Basic%20Command%20of%20Linux/1.%20Basic%20Command%20of%20Linux.md)
+- 🔗 [Wildcards - Globbing Patterns](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Basic%20Command%20of%20Linux/2.%20Wildcards%20-%20Globbing%20Patterns.md)
+- ➡️ [Pipes and Redirects](https://github.com/nikhilpatidar01/Linux-Server/tree/Master/Pipes%20and%20Redirects)
+- 📦 [Archiving and Compression](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Compress%20Tools/1.%20Compress%20Tools.md)
+- 🗜️ [Compression Tools (`zip`, `gzip`, `bzip`, `tar`, `7zip`)](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Compress%20Tools/1.%20Compress%20Tools.md)
+- 🎁 [Archiving Tools]([https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Compress-Tool.md#create-a-tar-archive](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Compress%20Tools/1.%20Compress%20Tools.md))
+- ⚡ [Linux Keyboard Shortcuts Cheat Sheet](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Basic%20Command%20of%20Linux/5.%20Linux%20Keyboard%20Shortcuts%20Cheat%20Sheet.md)
 
 ## ✍️ Text Editors
 - 📝 [`cat`](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Text-Editor.md#1-cat-command)
