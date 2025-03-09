@@ -87,16 +87,16 @@
 
   
 ## 💾 File System & Disk Management
-- 💿 Types of Disks
-- 🛠️ `parted` Utility
-- 🛠️ [`fdisk` Utility](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Fdisk.md#what-is-fdisk)
-- 📂 Mounting a File System
-- 📝 The `/etc/fstab` File
-- 📊 [Quota Management](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Managing-Quotas-LVM-and-RAID.md#quota-management-in-linux)
-- 🔄 SWAP (Partitions and Files)
+- 💿 [Add a New Virtual Disk in VirtualBox](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Disk%20Managment%20in%20Linux/1.%20Add%20New%20Virtual%20Disk%20in%20VirtualBox.md#-how-to-add-a-new-virtual-disk-in-virtualbox-vm-box--step-by-step-guide)
+- 💿 [Types of Disks](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Disk%20Managment%20in%20Linux/6.%20Types%20of%20Disk%20in%20Linux.md#-types-of-disks-in-linux--)
+- 🛠️ [Disk Partition Create, Delete,  Formatting, Mount](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Disk%20Managment%20in%20Linux/2.%20Disk%20Partition%20Create%2C%20Delete%2C%20%20Formatting%2C%20Mount.md#-linux-disk-partitioning--management--complete-guide)
+- 📂 [Mounting a File System](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Disk%20Managment%20in%20Linux/3.%20Permanently%20Mounting%20%20Disk%20Partition.md#-how-to-permanently-mount-a-disk-partition-in-linux)
+- 📊 [Hard and Soft Quota Management](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Disk%20Managment%20in%20Linux/4.%20Hard%20and%20Soft%20Quotas%20Managment.md#-how-to-set-up-disk-quotas-in-linux-)
+- 🔄 [Logical Volume Manager (LVM)](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Disk%20Managment%20in%20Linux/5.%20Logical%20Volume%20Manager%20(LVM).md#-logical-volume-manager-lvm-in-linux-)
 - 🏗️ RAID Overview
-  - ⚡ Uses of RAID
-  - 📊 RAID Levels
+  - ⚡ [Uses of RAID](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Raid%20Overview%20in%20Linux/1.%20Uses%20of%20RAID.MD#-uses-of-raid-redundant-array-of-independent-disks-in-linux-)
+  - 📊 [RAID Levels](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Raid%20Overview%20in%20Linux/2.%20RAID%20Level.md)
+  - 🖥️ [RAID Levels](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Raid%20Overview%20in%20Linux/3.%20RAID%20Level%20Commands.md#%EF%B8%8F-raid-level-commands-in-linux--%EF%B8%8F)
 - 🔍 [Logical Volume Manager (LVM)](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Managing-Quotas-LVM-and-RAID.md#logical-volume-manager-lvm-and-raid-setup-and-management)
 
 ## 🌐 Network Configuration and Controlling Services
