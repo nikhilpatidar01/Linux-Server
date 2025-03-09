@@ -24,7 +24,10 @@
 ## ✍️ Text Editors
 - 📝 [`cat `](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Text%20Editor/5.%20Cat%20Command%20in%20Linux.md)
 - 🖊️ [`Nano, Vim, Gedit, and VS Code Text Editor in Linux`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Text%20Editor/1.%20Nano%2C%20Vim%2C%20Gedit%2C%20and%20VS%20Code%20Text%20Editor%20in%20Linux.md)
-- 🎨 [``vim`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Text%20Editor/2.%20vim%20Editor.md)
+- 📝 [`vim`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Text%20Editor/2.%20vim%20Editor.md)
+
+## 🎨 GRC (Generic Colouriser) 
+- 🎨 [`GRC (Generic Colouriser) in Linux `](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/GRC%20(Generic%20Colouriser)%20/1.%20GRC%20(Generic%20Colouriser)%20Installation.md)
 
 ## 🔍 String Processing and Finding Files
 
