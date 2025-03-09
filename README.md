@@ -31,22 +31,24 @@
 
 ## 🔍 String Processing and Finding Files
 
-- 🔝 [`head`](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/String-Processing.md#head)
-- 🔚 [`tail`](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/String-Processing.md#tail)
-- 🔢 [`wc`](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/String-Processing.md#wc)
-- 📑 [`sort`](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/String-Processing.md#sort)
-- ✂️ [`cut`](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/String-Processing.md#cut-command)
-- 🔗 [`paste`](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/String-Processing.md#paste)
-- 🔍 [`grep`](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/String-Processing.md#grep)
-- 📊 [`awk`](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/String-Processing.md#awk)
-- 🛠️ [`sed`](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/String-Processing.md#sed)
+- 🔝 [`head`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/String%20Processing/7.%20Head,%20Tail,%20Sort,%20Watch%20and%20Line%20Counting.md#head)
+- 🔚 [`tail`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/String%20Processing/7.%20Head,%20Tail,%20Sort,%20Watch%20and%20Line%20Counting.md#tail)
+- 🔢 [`watch`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/String%20Processing/7.%20Head,%20Tail,%20Sort,%20Watch%20and%20Line%20Counting.md#watch-command)
+- 📑 [`wc`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/String%20Processing/7.%20Head,%20Tail,%20Sort,%20Watch%20and%20Line%20Counting.md#wc)
+- 📑 [`sort`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/String%20Processing/7.%20Head,%20Tail,%20Sort,%20Watch%20and%20Line%20Counting.md#sort)
+- 🔍 [`grep`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/String%20Processing/2.%20Grep%20Command.md)
+- ✂️ [`Grep cut`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/String%20Processing/3.%20Grep%20Cut%20and%20Paste%20Command%20in%20Linux.md)
+- 🔗 [`grep paste`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/String%20Processing/3.%20Grep%20Cut%20and%20Paste%20Command%20in%20Linux.md)
+- 📊 [`awk`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/String%20Processing/4.%20AWK%20Command.md)
+- 🛠️ [`sed`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/String%20Processing/5.%20Sed%20Command.md)
 
 ### 🔎 Finding Files Commands:
 - 🌳 [`tree`](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Finding-Files.md#1-tree-command)
 - 🔦 [`find`](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Finding-Files.md#2-find-command)
 - ❓ [`which`](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Finding-Files.md#2-which-command)
 - 📌 [`whereis`](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Finding-Files.md#3-whereis-command)
-
+- 🔍 [`File Finding`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/String%20Processing/6.%20File%20Finding.md)
+- 
 ## 👥 Users, Groups, and Permissions
 - 🖥️ [Types of Shells](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Linux-Shell-Introduction.md#shells-in-linux)
 - 🏢 [Users and Groups](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/User-and-Group-Management.md#user-management)
