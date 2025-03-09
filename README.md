@@ -76,13 +76,16 @@
 - 🔑 [Reset Root Password](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Sudo%20Configuration/4.%20Reset%20Root%20Password.md#-reset-root-password-in-linux--step-by-step-guide)
 
 ## 📦 Package Management
-- 📂 [Overview of RPM and SRPM Packages](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/RPM-Commands.md#rpm-commands)
-- 🏗️ [Explanation of Different Architectures](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Package-Management.md#package-management-in-linux)
-- 🛠️ [Installing Packages Using RPM](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/RPM-Commands.md#installing-packages)
-- 🌐 [Understanding Repositories](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Understanding-Repositories.md#-understanding-repositories-in-linux-)
-  - 🏪 [Types of Repositories](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Types-of-Repositories.md#-types-of-repositories-in-linux)
-- 📥 [Installing Packages Using `yum`](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/YUM-Commands-and-Groups.md#installing-and-removing-packages)
+- 🖥️ [Service Management in Linux](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Service%20Management%20In%20Linux/1.%20Service%20Management%20in%20Linux.md#service-management-in-linux)
+- 📦 [RPM and dpkg Overview](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Red%20Hat%20Package%20Manager%20(RPM)/1.%20RPM%20and%20DPKG%20%20Package%20Management%20Theory.md#-linux-package-managers-rpm-and-dpkg)
+- 📦 [RPM and SRPM Packages](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Red%20Hat%20Package%20Manager%20(RPM)/1.%20RPM%20and%20DPKG%20%20Package%20Management%20Theory.md#rpm-commands)
+- 🛠️ [RPM Packge Install, Upgrade and Remove](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Red%20Hat%20Package%20Manager%20(RPM)/3.%20Install%2C%20Upgrade%2C%20and%20Remove%20Software%20in%20Linux%20through%20RPM.md#-rpm-package-management-install-upgrade-and-remove-software-in-linux-)
+- 📦 [Yum Command Overview](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Red%20Hat%20Package%20Manager%20(RPM)/6.%20Yum%20Command.md)
+- 📦 [dnf Command Overview](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Red%20Hat%20Package%20Manager%20(RPM)/8.%20DNF%20Command.md)
+- 📦 [apt Command Overview](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Red%20Hat%20Package%20Manager%20(RPM)/9.1.%20apt%20Command%20in%20Linux.md)
+- 📦 [dpkg Command Overview](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Red%20Hat%20Package%20Manager%20(RPM)/9.%20dpkg%20Command%20in%20Debian.md#1-install-a-deb-package)
 
+  
 ## 💾 File System & Disk Management
 - 💿 Types of Disks
 - 🛠️ `parted` Utility
