@@ -113,36 +113,35 @@
   - 🌍 [wget](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Network%20Clients/1.%20Network%20Client%20Tolls%20in%20Linux.md#-wget-command-in-linux)
   - 🔄 [rsync](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Network%20Clients/1.%20Network%20Client%20Tolls%20in%20Linux.md#-rsync-command-in-linux)
 - 📌 Checking the Status of Services
-  - ✅ [service Status](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Service%20Management%20In%20Linux/1.%20Service%20Management%20in%20Linux.md#3-managing-services-with-sysvinit-older-linux-systems)
-  - ✅ [service Start](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Service%20Management%20In%20Linux/1.%20Service%20Management%20in%20Linux.md#starting-and-stopping-services)
-  - ✅ [service stop](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Service%20Management%20In%20Linux/1.%20Service%20Management%20in%20Linux.md#starting-and-stopping-services)
-  
-- 🔄 Starting, Restarting, and Stopping Services
+  - ✅ [Service Status](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Service%20Management%20In%20Linux/1.%20Service%20Management%20in%20Linux.md#3-managing-services-with-sysvinit-older-linux-systems)
+  - ✅ [Service Start](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Service%20Management%20In%20Linux/1.%20Service%20Management%20in%20Linux.md#starting-and-stopping-services)
+  - ✅ [Service Stop](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Service%20Management%20In%20Linux/1.%20Service%20Management%20in%20Linux.md#starting-and-stopping-services)
+  - 🔄 [Starting, Restarting, and Stopping Services](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Service%20Management%20In%20Linux/1.%20Service%20Management%20in%20Linux.md#service-management-in-linux)
 
 ## 📊 Process Management, and Monitoring Tools
  Here’s a more aligned and neat version of your list:
 
-- 🔄 [`ps`](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Process-Management.md#viewing-processes-with-ps-command)
-- 🗺️ [`jobs`](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Process-Management.md#viewing-and-managing-jobs)
-- ➡️ [`fg`](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Process-Management.md#running-commands-in-the-background--foreground)
-- 🗜️ [`htop`](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Process-Management.md#monitoring-processes-in-real-time) 
-- ⚡ [`kill`](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Process-Management.md#killing-processes) 
+- 🔄 [`ps`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Network%20Configuration%20%20in%20Linux/4.%20%20Process%20Management%20in%20Linux.md#viewing-processes-with-ps-command)
+- 🗺️ [`jobs`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Network%20Configuration%20%20in%20Linux/4.%20%20Process%20Management%20in%20Linux.md#viewing-background-jobs)
+- ➡️ [`fg`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Network%20Configuration%20%20in%20Linux/4.%20%20Process%20Management%20in%20Linux.md#bringing-a-job-to-the-foreground)
+- 🗜️ [`htop`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Network%20Configuration%20%20in%20Linux/4.%20%20Process%20Management%20in%20Linux.md#alternative-htop-better-alternative-to-top) 
+- ⚡ [`kill`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Network%20Configuration%20%20in%20Linux/4.%20%20Process%20Management%20in%20Linux.md#forcefully-kill-a-process-using-sigkill) 
  
 ### 🦠 Installing & Configuring Antivirus Software
-- 🔬 [`ClamAV`](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/ClamAV-Linux-Antivirus.md#clamav-installation-and-usage-on-centos)
-- 🛡️ `LMD` (Linux Malware Detect)
+- 🔬 [`ClamAV Antivirus`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Clam%20Antivirus/1.%20ClamAV%20Antivirus.md#clamav-antivirus-linux-based-explanation)
+- 🛡️ [LMD (Linux Malware Detect)](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Clam%20Antivirus/2.%20LMD%20(Linux%20Malware%20Detect).md#-linux-malware-detect-lmd-installation--usage)
 
 ### 🏰 Firewalls
-- 🚧 `iptables`
-- 🌐 `firewalld`
-- 🔥 `ufw` (Uncomplicated Firewall)
+- 🚧 [iptables](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Firewalls%20In%20Linux/3.%20Iptables%20in%20Linux.md)
+- 🌐 [firewalld](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Firewalls%20In%20Linux/2.%20Firewalld%20Commands.md)
+- 🔥 [ufw` (Uncomplicated Firewall)](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Firewalls%20In%20Linux/4.%20UFW%20(Uncomplicated%20Firewall).md#-ufw-uncomplicated-firewall--installation--configuration-guide-ubuntudebian--centosrhel)
 
 ### 📊 Memory Management and System Performance Commands
-- 📈 [`free`](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Memory-Management.md#1-memory-management-commands)
-- 📈 [`vmstat`](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Memory-Management.md#2-system-performance-commands)
-- 📊 [`iostat`](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Memory-Management.md#2-system-performance-commands)
-- 🔎 [`lsof`](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Memory-Management.md#2-system-performance-commands)
-- 🌐 [`kill`](https://github.com/InfoSecWarrior/Linux-Essentials/blob/main/Memory-Management.md#3-killing-processes-using-kill)
+- 📈 [`free[`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Memory%20Management%20and%20System%20Performance%20Commands/1.%20Memory%20Management%20and%20System%20Performance%20Commands.md#-syntax)
+- 📈 [`vmstat`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Memory%20Management%20and%20System%20Performance%20Commands/1.%20Memory%20Management%20and%20System%20Performance%20Commands.md#-syntax-1)
+- 📊 [`iostat`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Memory%20Management%20and%20System%20Performance%20Commands/1.%20Memory%20Management%20and%20System%20Performance%20Commands.md#-iostat--monitor-cpu-and-disk-io-performance)
+- 🔎 [`lsof`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Memory%20Management%20and%20System%20Performance%20Commands/1.%20Memory%20Management%20and%20System%20Performance%20Commands.md#-lsof--list-open-files-in-linux)
+- 🌐 [`kill`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Memory%20Management%20and%20System%20Performance%20Commands/1.%20Memory%20Management%20and%20System%20Performance%20Commands.md#-kill-command-in-linux--terminate-a-process)
 
 ---
 ### 🤝 Contributing
