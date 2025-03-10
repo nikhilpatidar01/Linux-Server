@@ -149,5 +149,5 @@
 - 📡 [Dynamic IP](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DHCP%20Server%20in%20Linux/1.%20Dynamic%20IP.md#-what-is-a-dhcp-server)
 - 🚫 [Exclusion IP](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DHCP%20Server%20in%20Linux/2.%20Exclusion%20IP.md#-configuring-dhcp-exclusion-range)
 - 🔒 [Reserved IP (Reservation)](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DHCP%20Server%20in%20Linux/3.%20Reserved%20IP%20(Reservation).md#-reserving-an-ip-address-in-dhcp)
-- ✅❌ [Allow and Deny List]❌(https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DHCP%20Server%20in%20Linux/4.%20Allow%20and%20Deny%20List.md#-allow-list-whitelist-and-deny-list-blacklist-in-dhcp)
-- 🔄 [Different Pools for Known & Unknown Clien](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DHCP%20Server%20in%20Linux/5.%20Different%20Pools%20for%20Known%20%26%20Unknown%20Clients.md#-dhcp-configuration-different-pools-for-known--unknown-clients)
+- ✅[Allow and Deny List](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DHCP%20Server%20in%20Linux/4.%20Allow%20and%20Deny%20List.md#-allow-list-whitelist-and-deny-list-blacklist-in-dhcp) ❌
+- 🔄 [Different Pools for Known & Unknown Clients](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DHCP%20Server%20in%20Linux/5.%20Different%20Pools%20for%20Known%20%26%20Unknown%20Clients.md#-dhcp-configuration-different-pools-for-known--unknown-clients)
