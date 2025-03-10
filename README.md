@@ -145,6 +145,6 @@
 
 <h1 align="center"> 🐧 🖥️ 📡 📶 DHCP Server 📶 📡 🖥️ 🐧</h1>
 
-## 📌 DHCP server Overview
-[Dynamic IP](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DHCP%20Server%20in%20Linux/1.%20Dynamic%20IP.md#-what-is-a-dhcp-server)
+## 🌐 DHCP server Overview
+- 📡 [Dynamic IP](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DHCP%20Server%20in%20Linux/1.%20Dynamic%20IP.md#-what-is-a-dhcp-server)
 
