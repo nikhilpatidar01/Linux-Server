@@ -1,4 +1,4 @@
-<h1 align="center">🐧 Linux Essentials</h1>
+<h1 align="center">🐧 Linux Essentials 🐧</h1>
 
 ## 📌 Introduction to Linux
 - 🐧 [UNIX, Linux, and Open Source](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Introduction%20to%20Linux/1.%20Introduction%20of%20Linux.md)
@@ -143,5 +143,5 @@
 - 🔎 [`lsof`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Memory%20Management%20and%20System%20Performance%20Commands/1.%20Memory%20Management%20and%20System%20Performance%20Commands.md#-lsof--list-open-files-in-linux)
 - 🌐 [`kill`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Memory%20Management%20and%20System%20Performance%20Commands/1.%20Memory%20Management%20and%20System%20Performance%20Commands.md#-kill-command-in-linux--terminate-a-process)
 
----
-## 🐧🖥️📡📶 DHCP Server
+<h1 align="center"> 🐧 🖥️ 📡 📶 DHCP Server 📶 📡 🖥️ 🐧</h1>
+## 
