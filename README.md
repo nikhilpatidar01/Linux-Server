@@ -145,7 +145,7 @@
 
 <h1 align="center"> 🐧 🖥️ 📡 📶 DHCP Server 📶 📡 🖥️ 🐧</h1>
 
-## 🌐 DHCP server Overview
+## 🌐 DHCP Server Overview 🌐
 - 📡 [Dynamic IP](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DHCP%20Server%20in%20Linux/1.%20Dynamic%20IP.md#-what-is-a-dhcp-server)
 - 🚫 [Exclusion IP](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DHCP%20Server%20in%20Linux/2.%20Exclusion%20IP.md#-configuring-dhcp-exclusion-range)
 - 🔒 [Reserved IP (Reservation)](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DHCP%20Server%20in%20Linux/3.%20Reserved%20IP%20(Reservation).md#-reserving-an-ip-address-in-dhcp)
@@ -154,6 +154,7 @@
 
 <h1 align="center"> 🐧 🖥️ 📡 🌐 DNS Server 🌐 📡 🖥️ 🐧</h1> 
 
+## 🌐 DNS Server Overview 🌐
 - 🌐 [DNS Server Types](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/1.%20DNS%20Server%20Types.md#%EF%B8%8F-what-is-a-dns-server)
 - 🔠 [DNS Records Types](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/2.%20DNS%20Records%20Types.md#-dns-records-)
 - 🌍 [DNS Client Tools (bind-utils)](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/3.%20DNS%20Client%20Tools%20bind-utils.md#%EF%B8%8F-dns-client-tools--commands-in-linux)
