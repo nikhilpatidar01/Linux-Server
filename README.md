@@ -157,7 +157,7 @@
 - 🌐 [DNS Server Types](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/1.%20DNS%20Server%20Types.md#%EF%B8%8F-what-is-a-dns-server)
 - 🔠 [DNS Records Types](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/2.%20DNS%20Records%20Types.md#-dns-records-)
 - 🌍 [DNS Client Tools (bind-utils)](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/3.%20DNS%20Client%20Tools%20bind-utils.md#%EF%B8%8F-dns-client-tools--commands-in-linux)
-  - 🛠️ [dig,](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/4.%20dig,%20nslookup%20and%20host%20DNS%20Lookup%20tools.md#%EF%B8%8F-dig-command--dns-lookup--troubleshooting-tool)
-  - 🛠️ [nslookup and](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/4.%20dig,%20nslookup%20and%20host%20DNS%20Lookup%20tools.md#%EF%B8%8F-nslookup-command--dns-lookup--troubleshooting-tool)
-  - 🛠️ [host DNS Lookup tools](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/4.%20dig,%20nslookup%20and%20host%20DNS%20Lookup%20tools.md#%EF%B8%8F-host-command--dns-lookup--troubleshooting-tool)
+  - 🛠️ [dig](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/4.%20dig,%20nslookup%20and%20host%20DNS%20Lookup%20tools.md#%EF%B8%8F-dig-command--dns-lookup--troubleshooting-tool)
+  - 🛠️ [nslookup](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/4.%20dig,%20nslookup%20and%20host%20DNS%20Lookup%20tools.md#%EF%B8%8F-nslookup-command--dns-lookup--troubleshooting-tool)
+  - 🛠️ [host](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/4.%20dig,%20nslookup%20and%20host%20DNS%20Lookup%20tools.md#%EF%B8%8F-host-command--dns-lookup--troubleshooting-tool)
 
