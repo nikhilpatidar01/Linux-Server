@@ -156,7 +156,7 @@
 
 ## 🌐 DNS Server Overview 🌐
 - 🌐 [DNS Server Types](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/1.%20DNS%20Server%20Types.md#%EF%B8%8F-what-is-a-dns-server)
-  - 🌐 [1.Non-Authoritative (Recursive) Nameserver 🔄]()
+  - 🔄 [Non-Authoritative (Recursive) Nameserver ]()
     - 🏪 [Caching Nameserver ]()
     - 📤 [Forwarding Nameserver ]() 
   - 🔐 [Authoritative Nameservers ]()
