@@ -156,10 +156,10 @@
 
 ## 🌐 DNS Server Overview 🌐
 - 🌐 [DNS Server Types](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/1.%20DNS%20Server%20Types.md#%EF%B8%8F-what-is-a-dns-server)
-  - 🔄 [Non-Authoritative (Recursive) Nameserver ]()
-    - 🏪 [Caching Nameserver ]()
-    - 📤 [Forwarding Nameserver ]() 
-  - 🔐 [Authoritative Nameservers ]()
+  - 🔄 [Non-Authoritative (Recursive) Nameserver ]
+    - 🏪 [Caching Nameserver ](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/5.%20Caching%20and%20Forwarding%20Nameserver.md#caching-nameserver-setup-guide)
+    - 📤 [Forwarding Nameserver ](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/5.%20Caching%20and%20Forwarding%20Nameserver.md#forwarder-nameserver-setup-guide) 
+  - 🔐 [Authoritative Nameservers ]
     - 👑 [Primary (Master) Nameserver ]()
     - 📦 [Secondary (Slave) Nameserver ]()
 - 🔠 [DNS Records Types](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/2.%20DNS%20Records%20Types.md#-dns-records-)
