@@ -1,5 +1,5 @@
 
-![Logo](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/840px-Red_Hat_Enterprise_Linux_RHEL-removebg-preview.png)
+<h1 align="center">![Logo](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/840px-Red_Hat_Enterprise_Linux_RHEL-removebg-preview.png) </h1>
 
 <h1 align="center">🐧 Linux Essentials 🐧</h1>
 
