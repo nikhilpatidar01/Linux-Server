@@ -1,5 +1,5 @@
 
-<p align="right">
+<p align="left">
   <img src="https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Red%20Hat%20Logo.png" alt="Red Hat Logo" width="300">
 </p>
 
