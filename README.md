@@ -1,8 +1,9 @@
 
-![Logo](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Red%20Hat%20Logo.png)
+<p align="right">
+  <img src="https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Red%20Hat%20Logo.png" alt="Red Hat Logo" width="300">
+</p>
 
-
-<h1 align="right">🐧 Linux Essentials 🐧</h1>
+<h1 align="left">🐧 Linux Essentials 🐧</h1>
 
 ## 📌 Introduction to Linux
 - 🐧 [UNIX, Linux, and Open Source](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Introduction%20to%20Linux/1.%20Introduction%20of%20Linux.md)
