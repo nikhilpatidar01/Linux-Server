@@ -160,6 +160,11 @@
 <h1 align="center"> 🐧 🖥️ 📡 🌐 DNS Server 🌐 📡 🖥️ 🐧</h1> 
 
 ## 🌐 DNS Server Overview 🌐
+- 🔠 [DNS Records Types](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/2.%20DNS%20Records%20Types.md#-dns-records-)
+- 🌍 [DNS Client Tools (bind-utils)](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/3.%20DNS%20Client%20Tools%20bind-utils.md#%EF%B8%8F-dns-client-tools--commands-in-linux)
+  - 🛠️ [dig](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/4.%20dig,%20nslookup%20and%20host%20DNS%20Lookup%20tools.md#%EF%B8%8F-dig-command--dns-lookup--troubleshooting-tool)
+  - 🛠️ [nslookup](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/4.%20dig,%20nslookup%20and%20host%20DNS%20Lookup%20tools.md#%EF%B8%8F-nslookup-command--dns-lookup--troubleshooting-tool)
+  - 🛠️ [host](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/4.%20dig,%20nslookup%20and%20host%20DNS%20Lookup%20tools.md#%EF%B8%8F-host-command--dns-lookup--troubleshooting-tool)
 - 🌐 [DNS Server Types](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/1.%20DNS%20Server%20Types.md#%EF%B8%8F-what-is-a-dns-server)
   - 🔄 Non-Authoritative (Recursive) Nameserver
     - 🏪 [Caching Nameserver ](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/5.%20Caching%20Nameserver.md#caching-nameserver-configuration)
@@ -167,9 +172,3 @@
   - 🔐 Authoritative Nameservers 
     - 👑 [Primary (Master) Nameserver ](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/7.%20Primary%20(Master)%20Nameserver.md#%EF%B8%8F-primary-dns-server-master-configuration)
     - 📦 [Secondary (Slave) Reverse Zone Configuration ](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/8.%20Reverse%20Zone%20Configuratoin.md#reverse-zone-configuration)
-- 🔠 [DNS Records Types](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/2.%20DNS%20Records%20Types.md#-dns-records-)
-- 🌍 [DNS Client Tools (bind-utils)](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/3.%20DNS%20Client%20Tools%20bind-utils.md#%EF%B8%8F-dns-client-tools--commands-in-linux)
-  - 🛠️ [dig](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/4.%20dig,%20nslookup%20and%20host%20DNS%20Lookup%20tools.md#%EF%B8%8F-dig-command--dns-lookup--troubleshooting-tool)
-  - 🛠️ [nslookup](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/4.%20dig,%20nslookup%20and%20host%20DNS%20Lookup%20tools.md#%EF%B8%8F-nslookup-command--dns-lookup--troubleshooting-tool)
-  - 🛠️ [host](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/4.%20dig,%20nslookup%20and%20host%20DNS%20Lookup%20tools.md#%EF%B8%8F-host-command--dns-lookup--troubleshooting-tool)
-
