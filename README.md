@@ -166,7 +166,7 @@
     - 📤 [Forwarding Nameserver ](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/6.%20Forwarder%20Nameserver%20.md#-forwarder-nameserver-setup-guide) 
   - 🔐 Authoritative Nameservers 
     - 👑 [Primary (Master) Nameserver ](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/7.%20Primary%20(Master)%20Nameserver.md#%EF%B8%8F-primary-dns-server-master-configuration)
-    - 📦 [Secondary (Slave)Reverse Zone Configuration ](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/8.%20Reverse%20Zone%20Configuratoin.md#reverse-zone-configuration)
+    - 📦 [Secondary (Slave) Reverse Zone Configuration ](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/8.%20Reverse%20Zone%20Configuratoin.md#reverse-zone-configuration)
 - 🔠 [DNS Records Types](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/2.%20DNS%20Records%20Types.md#-dns-records-)
 - 🌍 [DNS Client Tools (bind-utils)](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/3.%20DNS%20Client%20Tools%20bind-utils.md#%EF%B8%8F-dns-client-tools--commands-in-linux)
   - 🛠️ [dig](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/4.%20dig,%20nslookup%20and%20host%20DNS%20Lookup%20tools.md#%EF%B8%8F-dig-command--dns-lookup--troubleshooting-tool)
