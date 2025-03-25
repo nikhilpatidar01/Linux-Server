@@ -168,10 +168,11 @@
 - 🌐 [DNS Server Types](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/1.%20DNS%20Server%20Types.md#%EF%B8%8F-what-is-a-dns-server)
   - 🔄 Non-Authoritative (Recursive) Nameserver
     - 🏪 [Caching Nameserver ](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/5.%20Caching%20Nameserver.md#caching-nameserver-configuration)
-    - 📤 [Forwarding Nameserver ](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/6.%20Forwarder%20Nameserver%20.md#-forwarder-nameserver-setup-guide) 
+    - 📤 [Forwarding Nameserver ](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/6.%20Forwarder%20Nameserver%20.md#-forwarder-nameserver-setup-guide)
+    - ↩️ [Reverse Zone Configuration ](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/8.%20Reverse%20Zone%20Configuratoin.md#reverse-zone-configuration)
   - 🔐 Authoritative Nameservers 
     - 👑 [Primary (Master) Nameserver ](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/7.%20Primary%20(Master)%20Nameserver.md#%EF%B8%8F-primary-dns-server-master-configuration)
-    - 📦 [Secondary (Slave) Reverse Zone Configuration ](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/8.%20Reverse%20Zone%20Configuratoin.md#reverse-zone-configuration)
+    - 📦 [Secondary (Slave) Nameserver]()
   
   - 🌍 Multiple Zone Configuration
     - 🖥️ [nikhil.local](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/7.%20Primary%20(Master)%20Nameserver.md#-editing-the-dns-zone-configuration)
