@@ -178,3 +178,8 @@
     - 🖥️ [nikhil.local](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/7.%20Primary%20(Master)%20Nameserver.md#-copy-example-zone-file-and-modify)
     - 🖥️ [patidar.local](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/9.1%20Multiple%20Zone%20in%20DNS.md#1-setup-for-patidarlocal)
     - 🖥️ [ai.local](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/9.1%20Multiple%20Zone%20in%20DNS.md#2-setup-for-ailocal)
+
+<h1 align="center"> 🐧🌐 Apache Web Server 🌐 🐧</h1> 
+
+## 🌐 Apache Web Server 🐧
+- 🌐 [Apache Web Server Setup and Configuration](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Server/1.%20Apache%20Web%20Server%20Setup%20and%20Configuration.md#apache-web-server-setup-and-configuration)
