@@ -169,12 +169,12 @@
   - 🔄 Non-Authoritative (Recursive) Nameserver
     - 🏪 [Caching Nameserver ](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/5.%20Caching%20Nameserver.md#caching-nameserver-configuration)
     - 📤 [Forwarding Nameserver ](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/6.%20Forwarder%20Nameserver%20.md#-forwarder-nameserver-setup-guide)
-    - ↩️ [Reverse Zone Configuration ](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/8.%20Reverse%20Zone%20Configuratoin.md#reverse-zone-configuration)
+    - ↩️ [Reverse Zone Configuration ](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/9.%20Reverse%20Zone%20Configuratoin.md#reverse-zone-configuration)
   - 🔐 Authoritative Nameservers 
     - 👑 [Primary (Master) Nameserver ](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/7.%20Primary%20(Master)%20Nameserver.md#%EF%B8%8F-primary-dns-server-master-configuration)
-    - 📦 [Secondary (Slave) Nameserver]()
+    - 📦 [Secondary (Slave) Nameserver[](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/8.%20Secondary%20(Slave)%20DNS%20Server.md#%EF%B8%8F-secondary-dns-server-slave-configuration)
   
   - 🌍 Multiple Zone Configuration
-    - 🖥️ [nikhil.local](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/7.%20Primary%20(Master)%20Nameserver.md#-editing-the-dns-zone-configuration)
-    - 🖥️ [patidar.local](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/9.%20Multiple%20Zone%20in%20DNS.md#multiple-zone-configuration)
-    - 🖥️ [ai.local](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/9.%20Multiple%20Zone%20in%20DNS.md#2-setup-for-ailocal)
+    - 🖥️ [nikhil.local](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/7.%20Primary%20(Master)%20Nameserver.md#-copy-example-zone-file-and-modify)
+    - 🖥️ [patidar.local](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/9.1%20Multiple%20Zone%20in%20DNS.md#1-setup-for-patidarlocal)
+    - 🖥️ [ai.local](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/9.1%20Multiple%20Zone%20in%20DNS.md#2-setup-for-ailocal)
