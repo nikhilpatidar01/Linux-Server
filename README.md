@@ -182,4 +182,4 @@
 <h1 align="center"> 🐧🌐 Apache Web Server 🌐 🐧</h1> 
 
 ## 🌐 Apache Web Server 🐧
-- 🌐 [Apache Web Server Setup and Configuration](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Server/1.%20Apache%20Web%20Server%20Setup%20and%20Configuration.md#apache-web-server-setup-and-configuration)
+  - 🌐 [Apache Web Server Setup and Configuration](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Server/1.%20Apache%20Web%20Server%20Setup%20and%20Configuration.md#apache-web-server-setup-and-configuration)
