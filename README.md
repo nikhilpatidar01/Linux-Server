@@ -172,7 +172,7 @@
     - ↩️ [Reverse Zone Configuration ](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/9.%20Reverse%20Zone%20Configuratoin.md#reverse-zone-configuration)
   - 🔐 Authoritative Nameservers 
     - 👑 [Primary (Master) Nameserver ](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/7.%20Primary%20(Master)%20Nameserver.md#%EF%B8%8F-primary-dns-server-master-configuration)
-    - 📦 [Secondary (Slave) Nameserver[](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/8.%20Secondary%20(Slave)%20DNS%20Server.md#%EF%B8%8F-secondary-dns-server-slave-configuration)
+    - 📦 [Secondary (Slave) Nameserver](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/8.%20Secondary%20(Slave)%20DNS%20Server.md#%EF%B8%8F-secondary-dns-server-slave-configuration)
   
   - 🌍 Multiple Zone Configuration
     - 🖥️ [nikhil.local](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/7.%20Primary%20(Master)%20Nameserver.md#-copy-example-zone-file-and-modify)
