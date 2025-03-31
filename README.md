@@ -182,7 +182,7 @@
 <h1 align="center"> 🐧🌐 Apache Web Server 🌐 🐧</h1> 
 
 ## 🌐 Apache Web Server 🐧
-- 🌐 [Apache Web Server Setup and Configuration](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Server/1.%20Apache%20Web%20Server%20Setup%20and%20Configuration.md#apache-web-server-setup-and-configuration)
+- 🌐 [Apache Web Server Setup and Configuration](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/1.%20Apache%20Web%20Server%20Setup%20and%20Configuration.md#apache-web-server-setup-and-configuration)
 - 🌐 [Binding with IP Address in Apache](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/2.%20Binding%20with%20IP%20Address%20in%20Apache.md#1-types-of-apache-binding)
 - 🌐 [Binding with Ports in Apache](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/3.%20Binding%20with%20Ports%20in%20Apache.md#binding-with-port-number-in-apache)
 - 🌐 [Binding with Domain Names in Apache](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/4.%20Binding%20with%20Domain%20Names%20in%20Apache.md#binding-with-domain-names-in-apache)
