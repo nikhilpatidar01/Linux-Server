@@ -56,9 +56,14 @@ netstat -nltup | grep httpd
 ### Step 6: Update Firewall for SSL
 Edit the firewall rules to allow SSL traffic (port 443):
 
-```bash
+```apache
 firewall-cmd --permanent --add-port=443/tcp
+```
+```apache
 firewall-cmd --permanent --add-port=8080/tcp
+```
+```apache
+
 firewall-cmd --reload
 ```
 
@@ -69,8 +74,10 @@ firewall-cmd --reload
 ### Step 1: Create SSL Directory
 Create a directory to store SSL certificates:
 
-```bash
+```
 mkdir /opt/ssl
+```
+```
 cd /opt/ssl
 ```
 
@@ -84,9 +91,13 @@ openssl req -x509 -newkey rsa:2048 -keyout key.pem -out cert.pem -days 365
 ### Step 3: Check the Generated Files
 Verify the files:
 
-```bash
+```
 ls -lh
+```
+```
 file key.pem
+```
+```
 file cert.pem
 ```
 
