@@ -12,9 +12,15 @@ yum install mod_ssl
 ### Step 2: Verify `mod_ssl` Installation
 Check if the module is installed:
 
-```bash
+```
 rpm -qi mod_ssl
+```
+
+```
 rpm -ql mod_ssl
+```
+
+```
 rpm -qd mod_ssl
 ```
 
@@ -28,6 +34,8 @@ Ensure that SSL is enabled by setting appropriate certificate files:
 
 ```apache
 SSLCertificateFile /etc/pki/tls/certs/localhost.crt
+```
+```apache
 SSLCertificateKeyFile /etc/pki/tls/private/localhost.key
 ```
 
@@ -41,7 +49,7 @@ systemctl restart httpd.service
 ### Step 5: Verify Apache Listening on SSL Port
 Check if Apache is listening on port 443 (SSL):
 
-```bash
+```apache
 netstat -nltup | grep httpd
 ```
 
