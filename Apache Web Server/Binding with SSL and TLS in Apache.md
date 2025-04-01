@@ -104,8 +104,10 @@ file cert.pem
 ### Step 4: Copy SSL Files to Appropriate Directories
 Copy the certificate and key to the proper directories:
 
-```bash
+```
 cp -v /opt/ssl/cert.pem /etc/pki/tls/certs/cert.pem
+```
+```
 cp -v /opt/ssl/key.pem /etc/pki/tls/private/key.pem
 ```
 
@@ -121,6 +123,31 @@ Modify or add these lines:
 
 ```apache
 SSLCertificateFile /etc/pki/tls/certs/cert.pem
+```
+```apache
+SSLCertificateKeyFile /etc/pki/tls/private/key.pem
+```
+Main File Configuration:
+```apache
+#   Point SSLCertificateFile at a PEM encoded certificate.  If
+#   the certificate is encrypted, then you will be prompted for a
+#   pass phrase.  Note that restarting httpd will prompt again.  Keep
+#   in mind that if you have both an RSA and a DSA certificate you
+#   can configure both in parallel (to also allow the use of DSA
+#   ciphers, etc.)
+#   Some ECC cipher suites (http://www.ietf.org/rfc/rfc4492.txt)
+#   require an ECC certificate which can also be configured in
+#   parallel.
+#SSLCertificateFile /etc/pki/tls/certs/localhost.crt
+SSLCertificateFile /etc/pki/tls/certs/cert.pem
+
+#   Server Private Key:
+#   If the key is not combined with the certificate, use this
+#   directive to point at the key file.  Keep in mind that if
+#   you've both a RSA and a DSA private key you can configure
+#   both in parallel (to also allow the use of DSA ciphers, etc.)
+#   ECC keys, when in use, can also be configured in parallel
+#SSLCertificateKeyFile /etc/pki/tls/private/localhost.key
 SSLCertificateKeyFile /etc/pki/tls/private/key.pem
 ```
 
