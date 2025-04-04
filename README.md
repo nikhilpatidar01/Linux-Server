@@ -182,7 +182,18 @@
 <h1 align="center"> 🐧🌐 Apache Web Server 🌐 🐧</h1> 
 
 ## 🌐 Apache Web Server 🐧
-- 🌐 [Apache Web Server Setup and Configuration](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/1.%20Apache%20Web%20Server%20Setup%20and%20Configuration.md#apache-web-server-setup-and-configuration)
-- 🌐 [Binding with IP Address in Apache](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/2.%20Binding%20with%20IP%20Address%20in%20Apache.md#1-types-of-apache-binding)
-- 🌐 [Binding with Ports in Apache](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/3.%20Binding%20with%20Ports%20in%20Apache.md#binding-with-port-number-in-apache)
-- 🌐 [Binding with Domain Names in Apache](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/4.%20Binding%20with%20Domain%20Names%20in%20Apache.md#binding-with-domain-names-in-apache)
+- 🌐 [Apache Web Server Setup and Configuration](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/1.%20Apache%20Web%20Server%20Binding%20IP%2C%20Port%2C%20Domain%20Name%2C%20SSL/1.%20Apache%20Web%20Server%20Setup%20and%20Configuration.md#apache-web-server-setup-and-configuration)
+- 🌐 [Binding with IP Address in Apache](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/1.%20Apache%20Web%20Server%20Binding%20IP%2C%20Port%2C%20Domain%20Name%2C%20SSL/2.%20Binding%20with%20IP%20Address%20in%20Apache.md)
+- 🌐 [Binding with Ports in Apache](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/1.%20Apache%20Web%20Server%20Binding%20IP%2C%20Port%2C%20Domain%20Name%2C%20SSL/3.%20Binding%20with%20Ports%20in%20Apache.md#binding-with-port-number-in-apache)
+- 🌐 [Binding with Domain Names in Apache](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/1.%20Apache%20Web%20Server%20Binding%20IP%2C%20Port%2C%20Domain%20Name%2C%20SSL/4.%20Binding%20with%20Domain%20Names%20in%20Apache.md#binding-with-domain-names-in-apache)
+- 🌐 [Binding with SSL and TLS in Apache](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/1.%20Apache%20Web%20Server%20Binding%20IP%2C%20Port%2C%20Domain%20Name%2C%20SSL/5.%20Binding%20with%20SSL%20and%20TLS%20in%20Apache.md#binding-with-ssltls-in-apache)
+- 🌐 [Binding Multiple Websites with SSL](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/1.%20Apache%20Web%20Server%20Binding%20IP%2C%20Port%2C%20Domain%20Name%2C%20SSL/6.%20Binding%20Multiple%20Websites%20%20with%20SSL.md#multiple-websites-binding--with-ssl)
+
+<h1 align="center"> 🐧🌐 PHP, MySQL and Wordpress 🌐 🐧</h1> 
+
+## 🌐 PHP Installation and Configuration 🐧
+- 🌐 [PHP Installation and Configuration](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/2.%20PHP%2C%20MySQL%2C%20Wordpress%20Installation%20and%20Configurartion/1.%20PHP%20Installation%20in%20Centos.md#what-is-php)
+- 🌐 [MySQL Installation and Configuration](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/2.%20PHP%2C%20MySQL%2C%20Wordpress%20Installation%20and%20Configurartion/2.%20MySQL%20Installation%20and%20Configuration%20in%20Centos.md#what-is-mysql)
+- 🌐 [Wordpress Installation and Configuration](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/2.%20PHP%2C%20MySQL%2C%20Wordpress%20Installation%20and%20Configurartion/3.%20WordPress%20Installation%20and%20Configuration.md#what-is-wordpress)
+- 🌐 [Directory Listing on a Website](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/2.%20PHP,%20MySQL,%20Wordpress%20Installation%20and%20Configurartion/4.%20Directory%20Listing%20on%20a%20Website.md#what-is-directory-listing-on-a-website)
+ 
