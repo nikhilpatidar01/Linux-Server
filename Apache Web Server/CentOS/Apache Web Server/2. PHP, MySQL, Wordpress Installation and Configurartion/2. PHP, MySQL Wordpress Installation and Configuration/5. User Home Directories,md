@@ -1,1 +1,191 @@
-djfdj
+
+## ✅ **Enable Apache User Home Directories (CentOS/RHEL)**
+
+Apache allows individual users to host web content from their home directories using the `mod_userdir` module. This setup is useful for development, personal websites, or segregated hosting environments.
+
+---
+
+### 🔹 **1. Enable `mod_userdir` Module in Apache**
+
+#### Edit the UserDir Configuration File:
+```bash
+vim /etc/httpd/conf.d/userdir.conf
+```
+
+#### Sample Configuration:
+```apache
+<IfModule mod_userdir.c>
+    UserDir enabled
+    UserDir public_html
+</IfModule>
+
+<Directory /home/*/public_html>
+    AllowOverride FileInfo AuthConfig Limit Indexes
+    Options MultiViews Indexes SymLinksIfOwnerMatch IncludesNoExec
+    Require method GET POST OPTIONS
+</Directory>
+```
+
+✅ **Explanation**:
+- Enables `public_html` folder inside each user’s home directory.
+- Allows indexing, symbolic links, and override rules.
+- Limits to safe HTTP methods (GET, POST, OPTIONS).
+
+---
+
+### 🔹 **2. Configure Home Directory for User: `nikhil`**
+
+#### Create the `public_html` Directory:
+```bash
+mkdir /home/nikhil/public_html
+```
+
+#### Set Correct Permissions:
+```bash
+chmod 711 /home/nikhil/
+chown -R nikhil:nikhil /home/nikhil/public_html/
+chmod -R 755 /home/nikhil/public_html/
+```
+
+---
+
+### 🔹 **3. Create VirtualHost for `nikhil`**
+
+#### Edit or Create:
+```bash
+vim /etc/httpd/conf.d/nikhil.conf
+```
+
+#### VirtualHost Sample:
+```apache
+<VirtualHost *:80>
+    ServerName nikhil.com
+    DocumentRoot /home/nikhil/public_html
+    DirectoryIndex index.html
+</VirtualHost>
+```
+
+---
+
+### 🔹 **4. Configure Home Directory for Another User: `patidar`**
+
+#### Create Public Web Directory:
+```bash
+mkdir /home/patidar/public_html
+```
+
+#### Set Correct Permissions:
+```bash
+chmod 711 /home/patidar/
+chown -R patidar:patidar /home/patidar/public_html/
+chmod -R 755 /home/patidar/public_html/
+```
+
+---
+
+### 🔹 **5. Create VirtualHost for `patidar`**
+
+#### Edit or Create:
+```bash
+vim /etc/httpd/conf.d/patidar.conf
+```
+
+#### HTTP VirtualHost:
+```apache
+<VirtualHost 192.168.129.147:80>
+    ServerName patidar.com
+    ServerAlias www.patidar.com
+    DocumentRoot /home/patidar/public_html
+    DirectoryIndex index.html
+
+    <Directory /home/patidar/public_html>
+        Options -Indexes
+    </Directory>
+</VirtualHost>
+```
+
+#### HTTPS VirtualHost:
+```apache
+<VirtualHost 192.168.129.147:443>
+    SSLEngine on
+    SSLCertificateFile /etc/pki/tls/certs/ca.crt
+    SSLCertificateKeyFile /etc/pki/tls/private/ca.key
+
+    ServerName nikhil.com
+    DocumentRoot /home/patidar/public_html
+    DirectoryIndex index.html
+
+    <Directory /home/patidar/public_html>
+        Options -Indexes
+    </Directory>
+</VirtualHost>
+```
+
+---
+
+### 🔹 **6. Restart Apache to Apply All Changes**
+```bash
+systemctl restart httpd
+```
+
+---
+
+### 🔹 **7. Test in Browser (Verify Configuration)**
+
+✅ **Before Testing**:
+- Add domain entries in `/etc/hosts` (on your local machine), if DNS is not configured:
+  ```bash
+  192.168.129.147    nikhil.com
+  192.168.129.147    patidar.com
+  ```
+- Make sure Apache and firewall allow port 80 (HTTP) and 443 (HTTPS):
+  ```bash
+  firewall-cmd --add-service=http --permanent
+  firewall-cmd --add-service=https --permanent
+  firewall-cmd --reload
+  ```
+
+✅ **Open Browser and Visit**:
+
+- For `nikhil` HTTP:
+  ```
+  http://nikhil.com
+  ```
+
+- For `patidar` HTTP:
+  ```
+  http://patidar.com
+  ```
+
+- For `patidar` HTTPS (SSL):
+  ```
+  https://nikhil.com
+  ```
+
+✅ **What to Check**:
+- Your `index.html` file should load.
+- Directory listing should be disabled if you used `Options -Indexes`.
+- Check for any permission/SELinux issues if page fails to load.
+- Use developer tools (F12) to debug missing files or errors.
+
+---
+
+### ⚠️ Additional Notes:
+
+- Enable SELinux access to home directories:
+  ```bash
+  setsebool -P httpd_enable_homedirs 1
+  chcon -R -t httpd_sys_content_t /home/*/public_html
+  ```
+
+- Confirm `mod_userdir` is enabled:
+  ```bash
+  httpd -M | grep userdir
+  ```
+
+- Logs for troubleshooting:
+  ```bash
+  tail -f /var/log/httpd/access_log /var/log/httpd/error_log
+  ```
+
+---
