@@ -1,4 +1,35 @@
 
+## 🌐 What is **Nginx**?
+
+**Nginx** (pronounced *"engine-x"*) is a **web server software** — it delivers web pages to people who request them through their browsers.
+
+But it’s not just a web server. Nginx is also used as:
+
+- ✅ **Reverse proxy** – sends requests to other servers (e.g., backend apps)
+- ✅ **Load balancer** – distributes traffic across multiple servers
+- ✅ **Content cache** – stores static files to serve them faster
+- ✅ **Media streamer** – streams video/audio content
+
+---
+
+## 🔥 Why is Nginx Popular?
+
+- Extremely **fast and efficient** (handles many users with low memory)
+- **Open-source** and **free**
+- Used by big companies: **Netflix, Airbnb, GitHub, WordPress.com**, etc.
+- Great for **modern websites** and **high-traffic apps**
+
+---
+
+## 🐧 Typical Use Cases on Linux:
+
+1. Hosting websites (HTML, CSS, JS, PHP)
+2. Acting as a reverse proxy in front of Node.js, Python (Flask/Django), etc.
+3. SSL termination (serving HTTPS)
+4. Serving static files (images, videos, etc.)
+5. Load balancing between multiple app servers
+
+---
 # How to Configure Nginx on CentOS/RHEL
 
 This guide explains how to install, configure, and secure an Nginx web server on CentOS or RHEL systems.
