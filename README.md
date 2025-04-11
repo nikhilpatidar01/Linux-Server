@@ -148,6 +148,8 @@
 - 🔎 [`lsof`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Memory%20Management%20and%20System%20Performance%20Commands/1.%20Memory%20Management%20and%20System%20Performance%20Commands.md#-lsof--list-open-files-in-linux)
 - 🌐 [`kill`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Memory%20Management%20and%20System%20Performance%20Commands/1.%20Memory%20Management%20and%20System%20Performance%20Commands.md#-kill-command-in-linux--terminate-a-process)
 
+### 🐧 Debian 12 Setup Full Guide
+- 🧰 [Debian 12 Setup Guide 🐧](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Debian%2012%20Setup%20Guide.md#debian-12-setup-guide)
 ---
 
 <h1 align="center"> 🐧 🖥️ 📡 📶 DHCP Server 📶 📡 🖥️ 🐧</h1>
