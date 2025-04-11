@@ -148,52 +148,58 @@
 - 🔎 [`lsof`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Memory%20Management%20and%20System%20Performance%20Commands/1.%20Memory%20Management%20and%20System%20Performance%20Commands.md#-lsof--list-open-files-in-linux)
 - 🌐 [`kill`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Memory%20Management%20and%20System%20Performance%20Commands/1.%20Memory%20Management%20and%20System%20Performance%20Commands.md#-kill-command-in-linux--terminate-a-process)
 
+---
+
 <h1 align="center"> 🐧 🖥️ 📡 📶 DHCP Server 📶 📡 🖥️ 🐧</h1>
 
 ## 🌐 DHCP Server Overview 🌐
-- 📡 [Dynamic IP](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DHCP%20Server%20in%20Linux/1.%20Dynamic%20IP.md#-what-is-a-dhcp-server)
-- 🚫 [Exclusion IP](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DHCP%20Server%20in%20Linux/2.%20Exclusion%20IP.md#-configuring-dhcp-exclusion-range)
-- 🔒 [Reserved IP (Reservation)](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DHCP%20Server%20in%20Linux/3.%20Reserved%20IP%20(Reservation).md#-reserving-an-ip-address-in-dhcp)
-- ✅ [Allow and Deny List](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DHCP%20Server%20in%20Linux/4.%20Allow%20and%20Deny%20List.md#-allow-list-whitelist-and-deny-list-blacklist-in-dhcp) ❌
-- 🔄 [Different Pools for Known & Unknown Clients](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DHCP%20Server%20in%20Linux/5.%20Different%20Pools%20for%20Known%20%26%20Unknown%20Clients.md#-dhcp-configuration-different-pools-for-known--unknown-clients)
-
+- 📡 [Dynamic IP](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DHCP%20Server%20in%20Linux/Installation%20on%20CentOS/1.%20Dynamic%20IP.md#what-is-a-dhcp-server)
+- 🚫 [Exclusion IP](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DHCP%20Server%20in%20Linux/Installation%20on%20CentOS/2.%20Exclusion%20IP.md#-configuring-dhcp-exclusion-range)
+- 🔒 [Reserved IP (Reservation)](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DHCP%20Server%20in%20Linux/Installation%20on%20CentOS/3.%20Reserved%20IP%20(Reservation).md#-reserving-an-ip-address-in-dhcp)
+- ✅ [Allow and Deny List](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DHCP%20Server%20in%20Linux/Installation%20on%20CentOS/4.%20Allow%20and%20Deny%20List.md#-allow-list-whitelist-and-deny-list-blacklist-in-dhcp) ❌
+- 🔄 [Different Pools for Known & Unknown Clients](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DHCP%20Server%20in%20Linux/Installation%20on%20CentOS/5.%20Different%20Pools%20for%20Known%20%26%20Unknown%20Clients.md#-dhcp-configuration-different-pools-for-known--unknown-clients)
+- 🅽 [Nginx Configuration](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DHCP%20Server%20in%20Linux/Installation%20on%20CentOS/Nginx%20Configure%20on%20CentOS.md#-what-is-nginx)
 <h1 align="center"> 🐧 🖥️ 📡 🌐 DNS Server 🌐 📡 🖥️ 🐧</h1> 
 
 ## 🌐 DNS Server Overview 🌐
-- 🔠 [DNS Records Types](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/2.%20DNS%20Records%20Types.md#-dns-records-)
-- 🌍 [DNS Client Tools (bind-utils)](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/3.%20DNS%20Client%20Tools%20bind-utils.md#%EF%B8%8F-dns-client-tools--commands-in-linux)
-  - 🛠️ [dig](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/4.%20dig,%20nslookup%20and%20host%20DNS%20Lookup%20tools.md#%EF%B8%8F-dig-command--dns-lookup--troubleshooting-tool)
-  - 🛠️ [nslookup](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/4.%20dig,%20nslookup%20and%20host%20DNS%20Lookup%20tools.md#%EF%B8%8F-nslookup-command--dns-lookup--troubleshooting-tool)
-  - 🛠️ [host](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/4.%20dig,%20nslookup%20and%20host%20DNS%20Lookup%20tools.md#%EF%B8%8F-host-command--dns-lookup--troubleshooting-tool)
-- 🌐 [DNS Server Types](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/1.%20DNS%20Server%20Types.md#%EF%B8%8F-what-is-a-dns-server)
+- 🔠 [DNS Records Types](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/CentOS/2.%20DNS%20Records%20Types.md#-dns-records-)
+- 🌍 [DNS Client Tools (bind-utils)](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/CentOS/3.%20DNS%20Client%20Tools%20bind-utils.md#%EF%B8%8F-dns-client-tools--commands-in-linux)
+  - 🛠️ [dig](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/CentOS/4.%20dig%2C%20nslookup%20and%20host%20DNS%20Lookup%20tools.md#%EF%B8%8F-dig-command--dns-lookup--troubleshooting-tool)
+  - 🛠️ [nslookup](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/CentOS/4.%20dig%2C%20nslookup%20and%20host%20DNS%20Lookup%20tools.md#%EF%B8%8F-nslookup-command--dns-lookup--troubleshooting-tool)
+  - 🛠️ [host](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/CentOS/4.%20dig%2C%20nslookup%20and%20host%20DNS%20Lookup%20tools.md#%EF%B8%8F-host-command--dns-lookup--troubleshooting-tool)
+- 🌐 [DNS Server Types](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/CentOS/1.%20DNS%20Server%20Types.md#%EF%B8%8F-what-is-a-dns-server)
   - 🔄 Non-Authoritative (Recursive) Nameserver
-    - 🏪 [Caching Nameserver ](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/5.%20Caching%20Nameserver.md#caching-nameserver-configuration)
-    - 📤 [Forwarding Nameserver ](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/6.%20Forwarder%20Nameserver%20.md#-forwarder-nameserver-setup-guide)
-    - ↩️ [Reverse Zone Configuration ](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/9.%20Reverse%20Zone%20Configuratoin.md#reverse-zone-configuration)
+    - 🏪 [Caching Nameserver ](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/CentOS/5.%20Caching%20Nameserver.md#caching-nameserver-configuration)
+    - 📤 [Forwarding Nameserver ](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/CentOS/6.%20Forwarder%20Nameserver%20.md#-forwarder-nameserver-setup-guide)
+    - ↩️ [Reverse Zone Configuration ](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/CentOS/9.%20Reverse%20Zone%20Configuratoin.md#reverse-zone-configuration)
   - 🔐 Authoritative Nameservers 
-    - 👑 [Primary (Master) Nameserver ](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/7.%20Primary%20(Master)%20Nameserver.md#%EF%B8%8F-primary-dns-server-master-configuration)
-    - 📦 [Secondary (Slave) Nameserver](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/8.%20Secondary%20(Slave)%20DNS%20Server.md#%EF%B8%8F-secondary-dns-server-slave-configuration)
+    - 👑 [Primary (Master) Nameserver ](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/CentOS/7.%20Primary%20(Master)%20Nameserver.md#%EF%B8%8F-primary-dns-server-master-configuration)
+    - 📦 [Secondary (Slave) Nameserver](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/CentOS/8.%20Secondary%20(Slave)%20DNS%20Server.md#%EF%B8%8F-secondary-dns-server-slave-configuration)
   
   - 🌍 Multiple Zone Configuration
-    - 🖥️ [nikhil.local](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/7.%20Primary%20(Master)%20Nameserver.md#-copy-example-zone-file-and-modify)
-    - 🖥️ [patidar.local](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/9.1%20Multiple%20Zone%20in%20DNS.md#1-setup-for-patidarlocal)
-    - 🖥️ [ai.local](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/9.1%20Multiple%20Zone%20in%20DNS.md#2-setup-for-ailocal)
+    - 🖥️ [nikhil.local](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/CentOS/7.%20Primary%20(Master)%20Nameserver.md#-editing-the-dns-zone-configuration)
+    - 🖥️ [patidar.local](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/CentOS/9.1%20Multiple%20Zone%20in%20DNS.md#1-setup-for-patidarlocal)
+    - 🖥️ [ai.local](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/CentOS/9.1%20Multiple%20Zone%20in%20DNS.md#2-setup-for-ailocal)
 
 <h1 align="center"> 🐧🌐 Apache Web Server 🌐 🐧</h1> 
 
 ## 🌐 Apache Web Server 🐧
-- 🌐 [Apache Web Server Setup and Configuration](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/1.%20Apache%20Web%20Server%20Binding%20IP%2C%20Port%2C%20Domain%20Name%2C%20SSL/1.%20Apache%20Web%20Server%20Setup%20and%20Configuration.md#apache-web-server-setup-and-configuration)
-- 🌐 [Binding with IP Address in Apache](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/1.%20Apache%20Web%20Server%20Binding%20IP%2C%20Port%2C%20Domain%20Name%2C%20SSL/2.%20Binding%20with%20IP%20Address%20in%20Apache.md)
-- 🌐 [Binding with Ports in Apache](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/1.%20Apache%20Web%20Server%20Binding%20IP%2C%20Port%2C%20Domain%20Name%2C%20SSL/3.%20Binding%20with%20Ports%20in%20Apache.md#binding-with-port-number-in-apache)
-- 🌐 [Binding with Domain Names in Apache](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/1.%20Apache%20Web%20Server%20Binding%20IP%2C%20Port%2C%20Domain%20Name%2C%20SSL/4.%20Binding%20with%20Domain%20Names%20in%20Apache.md#binding-with-domain-names-in-apache)
-- 🌐 [Binding with SSL and TLS in Apache](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/1.%20Apache%20Web%20Server%20Binding%20IP%2C%20Port%2C%20Domain%20Name%2C%20SSL/5.%20Binding%20with%20SSL%20and%20TLS%20in%20Apache.md#binding-with-ssltls-in-apache)
-- 🌐 [Binding Multiple Websites with SSL](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/1.%20Apache%20Web%20Server%20Binding%20IP%2C%20Port%2C%20Domain%20Name%2C%20SSL/6.%20Binding%20Multiple%20Websites%20%20with%20SSL.md#multiple-websites-binding--with-ssl)
+- 🌐 [Apache Web Server Setup and Configuration](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/CentOS/Apache%20Web%20Server/2.%20PHP%2C%20MySQL%2C%20Wordpress%20Installation%20and%20Configurartion/1.%20Apache%20Web%20Server%20Binding%20IP%2C%20Port%2C%20Domain%20Name%2C%20SSL%20/1.%20Apache%20Web%20Server%20Setup%20and%20Configuration.md#apache-web-server-setup-and-configuration)
+- 🌐 [Binding with IP Address in Apache](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/CentOS/Apache%20Web%20Server/2.%20PHP%2C%20MySQL%2C%20Wordpress%20Installation%20and%20Configurartion/1.%20Apache%20Web%20Server%20Binding%20IP%2C%20Port%2C%20Domain%20Name%2C%20SSL%20/2.%20Binding%20with%20IP%20Address%20in%20Apache.md#1-types-of-apache-binding)
+- 🌐 [Binding with Ports in Apache](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/CentOS/Apache%20Web%20Server/2.%20PHP%2C%20MySQL%2C%20Wordpress%20Installation%20and%20Configurartion/1.%20Apache%20Web%20Server%20Binding%20IP%2C%20Port%2C%20Domain%20Name%2C%20SSL%20/3.%20Binding%20with%20Ports%20in%20Apache.md#binding-with-port-number-in-apache)
+- 🌐 [Binding with Domain Names in Apache](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/CentOS/Apache%20Web%20Server/2.%20PHP%2C%20MySQL%2C%20Wordpress%20Installation%20and%20Configurartion/1.%20Apache%20Web%20Server%20Binding%20IP%2C%20Port%2C%20Domain%20Name%2C%20SSL%20/4.%20Binding%20with%20Domain%20Names%20in%20Apache.md#binding-with-domain-names-in-apache)
+- 🌐 [Binding with SSL and TLS in Apache](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/CentOS/Apache%20Web%20Server/2.%20PHP,%20MySQL,%20Wordpress%20Installation%20and%20Configurartion/1.%20Apache%20Web%20Server%20Binding%20IP,%20Port,%20Domain%20Name,%20SSL%20/5.%20Binding%20with%20SSL%20and%20TLS%20in%20Apache.md#binding-with-ssltls-in-apache)
+- 🌐 [Binding Multiple Websites with SSL](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/CentOS/Apache%20Web%20Server/2.%20PHP,%20MySQL,%20Wordpress%20Installation%20and%20Configurartion/1.%20Apache%20Web%20Server%20Binding%20IP,%20Port,%20Domain%20Name,%20SSL%20/6.%20Binding%20Multiple%20Websites%20%20with%20SSL.md#multiple-websites-binding--with-ssl)
 
 <h1 align="center"> 🐧🌍 PHP, MySQL and Wordpress 🌍 🐧</h1> 
 
 ## 🌍 PHP Installation and Configuration 🐧
-- 🐘 [PHP Installation and Configuration](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/2.%20PHP%2C%20MySQL%2C%20Wordpress%20Installation%20and%20Configurartion/1.%20PHP%20Installation%20in%20Centos.md#what-is-php)
-- 📝 [MySQL Installation and Configuration](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/2.%20PHP%2C%20MySQL%2C%20Wordpress%20Installation%20and%20Configurartion/2.%20MySQL%20Installation%20and%20Configuration%20in%20Centos.md#what-is-mysql)
-- 🌍 [Wordpress Installation and Configuration](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/2.%20PHP%2C%20MySQL%2C%20Wordpress%20Installation%20and%20Configurartion/3.%20WordPress%20Installation%20and%20Configuration.md#what-is-wordpress)
-- 📂 [Directory Listing on a Website](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/2.%20PHP,%20MySQL,%20Wordpress%20Installation%20and%20Configurartion/4.%20Directory%20Listing%20on%20a%20Website.md#what-is-directory-listing-on-a-website)
- 
+- 🐘 [PHP Installation and Configuration](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/CentOS/Apache%20Web%20Server/2.%20PHP%2C%20MySQL%2C%20Wordpress%20Installation%20and%20Configurartion/2.%20PHP%2C%20MySQL%20Wordpress%20Installation%20and%20Configuration/1.%20PHP%20Installation%20in%20Centos.md#what-is-php)
+- 📝 [MySQL Installation and Configuration](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/CentOS/Apache%20Web%20Server/2.%20PHP%2C%20MySQL%2C%20Wordpress%20Installation%20and%20Configurartion/2.%20PHP%2C%20MySQL%20Wordpress%20Installation%20and%20Configuration/2.%20MySQL%20Installation%20and%20Configuration%20in%20Centos.md#what-is-mysql)
+- 🌍 [Wordpress Installation and Configuration](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/CentOS/Apache%20Web%20Server/2.%20PHP%2C%20MySQL%2C%20Wordpress%20Installation%20and%20Configurartion/2.%20PHP%2C%20MySQL%20Wordpress%20Installation%20and%20Configuration/3.%20WordPress%20Installation%20and%20Configuration.md#what-is-wordpress)
+- 📂 [Directory Listing on a Website](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/CentOS/Apache%20Web%20Server/2.%20PHP,%20MySQL,%20Wordpress%20Installation%20and%20Configurartion/2.%20PHP,%20MySQL%20Wordpress%20Installation%20and%20Configuration/4.%20Directory%20Listing%20on%20a%20Website.md#-apache-directory-listing-security-configuration-guide-for-centos)
+- [User Home Directories](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/CentOS/Apache%20Web%20Server/2.%20PHP,%20MySQL,%20Wordpress%20Installation%20and%20Configurartion/2.%20PHP,%20MySQL%20Wordpress%20Installation%20and%20Configuration/5.%20User%20Home%20Directories.md#-enable-apache-user-home-directories-centosrhel)
+- [WebDAV with Apache](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/CentOS/Apache%20Web%20Server/2.%20PHP%2C%20MySQL%2C%20Wordpress%20Installation%20and%20Configurartion/2.%20PHP%2C%20MySQL%20Wordpress%20Installation%20and%20Configuration/6.%20WebDAV%20with%20Apache.md#webdav-with-apache)
+- [CGI Scripts (Common Gateway Interface)](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/CentOS/Apache%20Web%20Server/2.%20PHP%2C%20MySQL%2C%20Wordpress%20Installation%20and%20Configurartion/2.%20PHP%2C%20MySQL%20Wordpress%20Installation%20and%20Configuration/7.%20CGI%20Scripts%20(Common%20Gateway%20Interface).md#cgi-scripts-common-gateway-interface)
+
+---
