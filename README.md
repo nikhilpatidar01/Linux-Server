@@ -205,7 +205,7 @@
 - ⚙️ [CGI Scripts (Common Gateway Interface)](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/CentOS/Apache%20Web%20Server/2.%20PHP%2C%20MySQL%2C%20Wordpress%20Installation%20and%20Configurartion/2.%20PHP%2C%20MySQL%20Wordpress%20Installation%20and%20Configuration/7.%20CGI%20Scripts%20(Common%20Gateway%20Interface).md#cgi-scripts-common-gateway-interface)
 
 ---
-<h1 align="center"> 📁🌐 FTP Server Installation and Configuration 🌐📁</h1> 
+<h1 align="center"> 📁🌐 FTP Server 🌐📁</h1> 
 
 ## 🚀 FTP (File Transfer Protocol) Server 🛠️
 - 📦 [Anonymous Access on FTP Server](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/FTP%20Server/Centos/1.%20Anonymous%20Access%20on%20FTP%20Server.md#anonymous-access-on-ftp-server)
