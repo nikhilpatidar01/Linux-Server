@@ -265,9 +265,9 @@ source ~/.zshrc
 For another user:
 
 ```bash
-su - armour
+su - nikhil
 chsh -s $(which zsh)
-nano /home/armour/.zshrc
+nano /home/nikhil/.zshrc
 ```
 
 ---
