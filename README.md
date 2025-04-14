@@ -208,17 +208,6 @@
 <h1 align="center"> 📁🌐 FTP Server 🌐📁</h1> 
 
 ## 🚀 FTP (File Transfer Protocol) Server 🛠️
-- 📦 [Anonymous Access on FTP Server](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/FTP%20Server/Centos/1.%20Anonymous%20Access%20on%20FTP%20Server.md#anonymous-access-on-ftp-server)
-- 🔐 [FTP Client Usage](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/FTP%20Server/Centos/2.%20FTP%20Client%20Usage.md#ftp-client-usage)
-- [Access User Home Directory on FTP Server using vsftpd](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/FTP%20Server/Centos/3.%20Access%20User%20Home%20Directory%20on%20FTP%20Server%20using%20vsftpd.md#access-user-home-directory-on-ftp-server-using-vsftpd)
-- [Allow Root Login on vsftpd (FTP Server)](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/FTP%20Server/Centos/4.%20Allow%20Root%20Login%20on%20vsftpd%20(FTP%20Server).md#allow-root-login-on-vsftpd-ftp-server)
-- [Login with Selected Users on vsftpd](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/FTP%20Server/Centos/5.%20Login%20with%20Selected%20Users%20on%20vsftpd..md#login-with-selected-users-on-vsftpd)
-- [FTP Path Configuration in vsftpd](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/FTP%20Server/Centos/6.%20FTP%20Path%20Configuration%20in%20vsftpd.md#ftp-path-configuration-in-vsftpd)
-- [TLS Encryption on FTP](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/FTP%20Server/Centos/7.%20TLS%20Encryption%20on%20FTP.md#tls-encryption-on-ftp)
-
----
-
-## 🚀 FTP (File Transfer Protocol) Server 🛠️
 
 - 📦 [Anonymous Access on FTP Server](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/FTP%20Server/Centos/1.%20Anonymous%20Access%20on%20FTP%20Server.md#anonymous-access-on-ftp-server)
 - 🔐 [FTP Client Usage](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/FTP%20Server/Centos/2.%20FTP%20Client%20Usage.md#ftp-client-usage)
