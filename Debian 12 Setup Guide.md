@@ -33,7 +33,7 @@ apt upgrade -y
 ### 4. Install Basic Tools
 
 ```bash
-apt install bash vim net-tools -y
+apt install bash nano net-tools -y
 ```
 
 ---
@@ -47,7 +47,7 @@ apt install openssh-server openssh-client ssh -y
 Edit SSH configuration if needed:
 
 ```bash
-vim /etc/ssh/sshd_config
+nano /etc/ssh/sshd_config
 ```
 
 **Add this line at the end of the file:**
@@ -76,7 +76,7 @@ systemctl restart ssh
 Edit the interfaces file:
 
 ```bash
-vim /etc/network/interfaces
+nano /etc/network/interfaces
 ```
 
 Example configuration:
@@ -117,7 +117,7 @@ iface enp0s8 inet6 auto
 ### 7. Configure DNS Resolver
 
 ```bash
-vim /etc/resolv.conf
+nano /etc/resolv.conf
 ```
 
 Example content:
@@ -168,7 +168,7 @@ su - root
 Edit the source list:
 
 ```bash
-vim /etc/apt/sources.list
+nano /etc/apt/sources.list
 ```
 
 Install HTTPS transport support:
@@ -197,7 +197,7 @@ deb-src http://deb.debian.org/debian/ bookworm main non-free-firmware
 ### 11. Install Useful Utilities
 
 ```bash
-apt install vim fonts-lato fonts-open-sans fonts-roboto fonts-mononoki fonts-indic zsh net-tools curl wget unzip -y
+apt install nano fonts-lato fonts-open-sans fonts-roboto fonts-mononoki fonts-indic zsh net-tools curl wget unzip -y
 ```
 
 Reconnect if needed:
