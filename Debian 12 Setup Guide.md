@@ -50,11 +50,16 @@ Edit SSH configuration if needed:
 vim /etc/ssh/sshd_config
 ```
 
-Example: allow root login
+**Add this line at the end of the file:**
+   ```bash
+   PermitRootLogin yes
+   ```
+Also ensure **PasswordAuthentication is enabled**. Uncomment and set:
+   ```bash
+   PasswordAuthentication yes
+   ```
 
-```
-PermitRootLogin yes
-```
+
 
 Enable and start SSH:
 
