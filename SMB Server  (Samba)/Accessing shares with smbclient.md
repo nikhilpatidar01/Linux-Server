@@ -1,10 +1,10 @@
 
 # SMB Client
-SMB client tools are utilities used to access and interact with SMB/CIFS file shares from a client machine, typically Linux or Unix systems. These tools allow you to connect to, browse, and transfer files to and from SMB servers (like Windows or Samba servers).
+This Document provides commands and usage exapmles for SMB/CIFS client utilities on Linux (especially RHEL-based distros). it covers package management, share discovery, file transfe and mounting via CIFS using tools like smbclient, smbtree, smbget and "smbtar"
 ---
 
 
-##  1. Package Management.
+## Package Management.
 ### Install Samba Client
 ```bash
 yum install samba-client
