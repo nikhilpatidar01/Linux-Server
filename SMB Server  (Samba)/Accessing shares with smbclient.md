@@ -91,14 +91,42 @@ smbclient //192.168.112.145/data
 smbclient //192.168.112.145/data -U username
 ```
 - Once Connected.
-
+ - Downlaod Files
 ```bash
 get <filename>
 mget <filename1> <filename2> <filename3>
-
+```
+ - Insert Files
+```bash
 put <filename>
 mput <filename1> <filename2> <filename3>
 ```
+
+---
+## Download with smbget
+- For downloading files via SMB (like wget)
+```bash 
+smbget -U Nikhil smb://192.168.112.145/data/0S2/VBoxReplaceDLL.exe
+```
+---
+
+## Backup with smbtar
+- Used to back up or Restore SMB Shares using tar formate
+```bash
+smbtar --help
+
+smbtar -s 192.168.112.145 -x data -U Nikhil -p 123 -t data.tar -v
+```
+---
+
+## Mounting shares with mount.cifs
+- Mount SMB Shares Directlty into the Linux Filesystem
+```bash
+mount -t cifs -o username=win10,password=123 //192.168.112.150/data /mnt
+
+mount -t cifs -o username=Nikhil,password=123 //192.168.112.150/data /mnt/d1
+```
+
 
 ---
 
