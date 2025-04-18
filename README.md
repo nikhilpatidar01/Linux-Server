@@ -152,7 +152,7 @@
 - 🧰 [Debian 12 Setup Guide 🐧](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Debian%2012%20Setup%20Guide.md#debian-12-setup-guide)
 ---
 
-<h1 align="center"> 🐧 🖥️ 📡 📶 DHCP Server 📶 📡 🖥️ 🐧</h1>
+<h1 align="center"> 🐧 🖥️ 📡 📶 Dynamic Host Configuration Protocol (DHCP) Server 📶 📡 🖥️ 🐧</h1>
 
 ## 🌐 DHCP Server Overview 🌐
 - 📡 [Dynamic IP](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DHCP%20Server%20in%20Linux/Installation%20on%20CentOS/1.%20Dynamic%20IP.md#what-is-a-dhcp-server)
@@ -161,9 +161,10 @@
 - ✅ [Allow and Deny List](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DHCP%20Server%20in%20Linux/Installation%20on%20CentOS/4.%20Allow%20and%20Deny%20List.md#-allow-list-whitelist-and-deny-list-blacklist-in-dhcp) ❌
 - 🔄 [Different Pools for Known & Unknown Clients](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DHCP%20Server%20in%20Linux/Installation%20on%20CentOS/5.%20Different%20Pools%20for%20Known%20%26%20Unknown%20Clients.md#-dhcp-configuration-different-pools-for-known--unknown-clients)
 - 🅽 [Nginx Configuration](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DHCP%20Server%20in%20Linux/Installation%20on%20CentOS/Nginx%20Configure%20on%20CentOS.md#-what-is-nginx)
+
 <h1 align="center"> 🐧 🖥️ 📡 🌐 DNS Server 🌐 📡 🖥️ 🐧</h1> 
 
-## 🌐 DNS Server Overview 🌐
+## 🌐 Domain Name System (DNS) Server Overview 🌐
 - 🔠 [DNS Records Types](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/CentOS/2.%20DNS%20Records%20Types.md#-dns-records-)
 - 🌍 [DNS Client Tools (bind-utils)](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/CentOS/3.%20DNS%20Client%20Tools%20bind-utils.md#%EF%B8%8F-dns-client-tools--commands-in-linux)
   - 🛠️ [dig](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/CentOS/4.%20dig%2C%20nslookup%20and%20host%20DNS%20Lookup%20tools.md#%EF%B8%8F-dig-command--dns-lookup--troubleshooting-tool)
@@ -204,8 +205,8 @@
 - 🔗 [WebDAV with Apache](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/CentOS/Apache%20Web%20Server/2.%20PHP%2C%20MySQL%2C%20Wordpress%20Installation%20and%20Configurartion/2.%20PHP%2C%20MySQL%20Wordpress%20Installation%20and%20Configuration/6.%20WebDAV%20with%20Apache.md#webdav-with-apache)
 - ⚙️ [CGI Scripts (Common Gateway Interface)](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/CentOS/Apache%20Web%20Server/2.%20PHP%2C%20MySQL%2C%20Wordpress%20Installation%20and%20Configurartion/2.%20PHP%2C%20MySQL%20Wordpress%20Installation%20and%20Configuration/7.%20CGI%20Scripts%20(Common%20Gateway%20Interface).md#cgi-scripts-common-gateway-interface)
 
----
-<h1 align="center"> 📁🌐 FTP Server 🌐📁</h1> 
+
+<h1 align="center"> 📁🌐 File Transfer Protocol (FTP) Server 🌐📁</h1> 
 
 ## 🚀 FTP (File Transfer Protocol) Server 🛠️
 
@@ -217,7 +218,6 @@
 - 📁 [FTP Path Configuration in vsftpd](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/FTP%20Server/Centos/6.%20FTP%20Path%20Configuration%20in%20vsftpd.md#ftp-path-configuration-in-vsftpd)
 - 🔒 [TLS Encryption on FTP](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/FTP%20Server/Centos/7.%20TLS%20Encryption%20on%20FTP.md#tls-encryption-on-ftp)
 
----
 
 <h1 align="center"> 🗂️📡 Network File System (NFS) Server 📡🗂️</h1> 
 
@@ -225,7 +225,6 @@
 
 - 🔧 [Network File System (NFS) Installation and Configuration](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Network%20File%20System%20(NFS)%20Configuration/CentOS/1.%20Network%20File%20System%20(NFS)%20Server.md#network-file-system-nfs-setup)
 
----
 
 <h1 align="center"> 🗂️🧰 SMB (Samba) Server 🧰🗂️</h1> 
 
@@ -237,7 +236,6 @@
 - 🗂️ [Shared Common Directories With Samba](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/SMB%20Server%20%20(Samba)/CentOS/4.%20Shared%20Common%20Directories%20With%20Samba.md#shared-common-directories-with-samba)
 - 🔐 [Share With Selected Users on Samba](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/SMB%20Server%20%20(Samba)/CentOS/5.%20Share%20With%20Selected%20Users%20on%20Samba.md#share-with-selected-users)
 
----
 
 <h1 align="center"> 🗂️📤 Trivial File Transfer Protocol (TFTP) Server 📤🗂️</h1> 
 
@@ -245,3 +243,5 @@
 
 - 📤 [TFTP Server Setup](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Trivial%20File%20Transfer%20Protocol%20(TFTP)%20Server/CentOS/1.%20%20Trivial%20File%20Transfer%20Protocol%20(TFTP)%20Server%20Setup.md#-trivial-file-transfer-protocol-tftp-server-setup-on-rhelcentos)
 - 🖥️ [TFTP Client Usage](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Trivial%20File%20Transfer%20Protocol%20(TFTP)%20Server/CentOS/2.%20TFTP%20Client%20Usage.md#tftp-client-usage-on-rhelcentos)
+
+---
