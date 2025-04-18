@@ -1,148 +1,200 @@
 
-# SMB Client
-This Document provides commands and usage exapmles for SMB/CIFS client utilities on Linux (especially RHEL-based distros). it covers package management, share discovery, file transfe and mounting via CIFS using tools like 'smbclient', 'smbtree', 'smbget' and 'smbtar'.
+# 📁 SMB Client
+
+This document provides commands and usage examples for SMB/CIFS client utilities on Linux (especially RHEL-based distros). It covers package management, share discovery, file transfer, and mounting via CIFS using tools like `smbclient`, `smbtree`, `smbget`, and `smbtar`.
+
 ---
 
+## 📦 Package Management
 
-## Package Management.
-### Install Samba Client
+### 🔧 Install Samba Client
 ```bash
 yum install samba-client
 ```
 
-### Verify Installation
- - Verification Installation
+### ✅ Verify Installation
+
+- Check installed packages:
 ```bash
 rpm -qa | grep samba
 ```
 ```bash
 rpm -qa | grep samba-client
 ```
-- Package information
+
+- Get package information:
 ```bash
-rpm -qi grep samba-client
-```
- - Docs Provided by the package
-```bash
-rpm -qd grep samba-client
-```
-- List all installed files
-```bash
-rpm -ql grep samba-client
+rpm -qi samba-client
 ```
 
-## Browsing Shares with smbtree
-### Discover Network Shares
+- View documentation provided by the package:
+```bash
+rpm -qd samba-client
+```
+
+- List all installed files from the package:
+```bash
+rpm -ql samba-client
+```
+
+---
+
+## 🌐 Browsing Shares with `smbtree`
+
+### 🔍 Discover Network Shares
 ```bash
 smbtree
 ```
-- Show only shares
+
+- Show only shares:
 ```bash
 smbtree -b 
 ```
 
-- Authenticate as user 'win7'
+- Authenticate as user 'win7':
 ```bash
 smbtree -U win7
 ```
-- Show a specific workgroup
+
+- Show a specific workgroup:
 ```bash
 smbtree -D workgroup
 ```
-- List all available workgroups
+
+- List all available workgroups:
 ```bash
 smbtree -D workgroups
 ```
 
+---
 
-## Accessing shares with smbclient
-smbclient works like an FTP client to access remote shares.
-### Explore Available Shares
+## 📂 Accessing Shares with `smbclient`
 
+`smbclient` works like an FTP client to access remote SMB shares.
+
+### 🔎 Explore Available Shares
 ```bash
 smbclient
 ```
-- Help Show
+
+- Show help:
 ```bash
-- smbclient --help
+smbclient --help
 ```
-- List Shares Anonymously
+
+- List shares anonymously:
 ```bash
 smbclient -L 192.168.112.145
 ```
-- UNC Formate
- ```bash
+
+- Use UNC format:
+```bash
 smbclient -L //192.168.112.50
 ```
-- With Username
- ```bash
+
+- Connect with username:
+```bash
 smbclient -L //192.168.112.50 -U win7
 ```
-- Guest Access (no Password)
- ```bash
+
+- Guest access (no password):
+```bash
 smbclient -L //192.168.112.50 -U "" -N
 ```
 
 ---
 
-## Connect to a Share
+## 🔗 Connect to a Share
+
 ```bash
-smbclient //192.168.112.145/data 
+smbclient //192.168.112.145/data
 smbclient //192.168.112.145/data -U username
 ```
-### Once Connected.
- - Downlaod Files
+
+### 📥 Once Connected
+
+- Download files:
 ```bash
 get <filename>
 mget <filename1> <filename2> <filename3>
 ```
- - Insert Files
+
+- Upload files:
 ```bash
 put <filename>
 mput <filename1> <filename2> <filename3>
 ```
 
 ---
-## Download with smbget
-- smbget allow file downloads from SMB shares via command line, similar to wget.
+
+## 📥 Download with `smbget`
+
+`smbget` allows file downloads from SMB shares via command line, similar to `wget`.
+
+- Example:
 ```bash 
 smbget -U Nikhil smb://192.168.112.145/data/0S2/VBoxReplaceDLL.exe
 ```
-Download a file using SMB credential and a full path.
+
 ---
 
-## Backup with smbtar
- smbtar backs up or restores entire SMB shares using the tar forate.
-- smbtar help
+## 🗃️ Backup with `smbtar`
+
+`smbtar` backs up or restores entire SMB shares using the TAR format.
+
+- Show help:
 ```bash
 smbtar --help
 ```
-- Displays usage for smbtar.
+
+- Backup example:
 ```bash
 smbtar -s 192.168.112.145 -x data -U Nikhil -p 123 -t data.tar -v
 ```
-- -s : serveraddress
-- -x : Share Name
-- -U / -p : Username and Password 
-- -t : Output tar archive
-- -v : Verbose output
-  
+
+- Option meanings:
+  - `-s`: Server address  
+  - `-x`: Share name  
+  - `-U / -p`: Username and password  
+  - `-t`: Output TAR archive  
+  - `-v`: Verbose output
+
 ---
 
-## Mounting shares with mount.cifs
-- Linux system can mount SMB shares into the filesystem using the cifs kernel module. 
+## 📌 Mounting Shares with `mount.cifs`
+
+Linux systems can mount SMB shares into the filesystem using the CIFS kernel module.
+
+- Mount share to `/mnt`:
 ```bash
 mount -t cifs -o username=win10,password=123 //192.168.112.150/data /mnt
 ```
-- Mounts a share to /mnt using specified credentials.
+
+- Mount another share to a custom directory:
 ```bash
 mount -t cifs -o username=Nikhil,password=123 //192.168.112.150/data /mnt/d1
 ```
 
-- Mounts another share to a custom direcoty.
+- Unmount:
 ```bash
 umount /mnt
 ```
 
+---
+
+## 📝 Summary & Notes
+
+### ✅ Summary:
+- **smbclient**: Interacts with SMB shares like an FTP client.
+- **smbtree**: Discovers and lists available SMB shares.
+- **smbget**: Downloads files from SMB shares like wget.
+- **smbtar**: Backs up entire SMB shares in tar format.
+- **mount.cifs**: Mounts SMB shares to the Linux filesystem.
+
+### 📌 Notes:
+- Always ensure the **`cifs-utils`** package is installed for mounting.
+- Use `-U` to specify a username when required.
+- Use secure methods (e.g., `credentials` file) to avoid exposing passwords in commands.
+- CIFS version may be needed in some cases: `vers=1.0`, `vers=2.1`, etc.
 
 ---
