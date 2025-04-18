@@ -1,6 +1,6 @@
 
 # SMB Client
-This Document provides commands and usage exapmles for SMB/CIFS client utilities on Linux (especially RHEL-based distros). it covers package management, share discovery, file transfe and mounting via CIFS using tools like smbclient, smbtree, smbget and "smbtar"
+This Document provides commands and usage exapmles for SMB/CIFS client utilities on Linux (especially RHEL-based distros). it covers package management, share discovery, file transfe and mounting via CIFS using tools like 'smbclient', 'smbtree', 'smbget' and 'smbtar'.
 ---
 
 
