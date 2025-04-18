@@ -90,7 +90,7 @@ smbclient -L //192.168.112.50 -U "" -N
 smbclient //192.168.112.145/data 
 smbclient //192.168.112.145/data -U username
 ```
-- Once Connected.
+### Once Connected.
  - Downlaod Files
 ```bash
 get <filename>
@@ -104,137 +104,45 @@ mput <filename1> <filename2> <filename3>
 
 ---
 ## Download with smbget
-- For downloading files via SMB (like wget)
+- smbget allow file downloads from SMB shares via command line, similar to wget.
 ```bash 
 smbget -U Nikhil smb://192.168.112.145/data/0S2/VBoxReplaceDLL.exe
 ```
+Download a file using SMB credential and a full path.
 ---
 
 ## Backup with smbtar
-- Used to back up or Restore SMB Shares using tar formate
+ smbtar backs up or restores entire SMB shares using the tar forate.
+- smbtar help
 ```bash
 smbtar --help
-
+```
+- Displays usage for smbtar.
+```bash
 smbtar -s 192.168.112.145 -x data -U Nikhil -p 123 -t data.tar -v
 ```
+- -s : serveraddress
+- -x : Share Name
+- -U / -p : Username and Password 
+- -t : Output tar archive
+- -v : Verbose output
+  
 ---
 
 ## Mounting shares with mount.cifs
-- Mount SMB Shares Directlty into the Linux Filesystem
+- Linux system can mount SMB shares into the filesystem using the cifs kernel module. 
 ```bash
 mount -t cifs -o username=win10,password=123 //192.168.112.150/data /mnt
-
+```
+- Mounts a share to /mnt using specified credentials.
+```bash
 mount -t cifs -o username=Nikhil,password=123 //192.168.112.150/data /mnt/d1
 ```
 
-
----
-
-## 📂 3. Connect to a Remote Share (Interactive Shell)
-
+- Mounts another share to a custom direcoty.
 ```bash
-smbclient //server-ip/Sharename -U username
+umount /mnt
 ```
 
-Example:
-```bash
-smbclient //192.168.1.100/SharedFiles -U user1
-```
-
-Inside the `smb:` prompt, you can use:
-- `ls` — list files
-- `cd` — change directory
-- `get filename` — download file
-- `put filename` — upload file
-- `exit` — quit
-
----
-
-## 🔁 4. Mount SMB Share to Local Directory
-
-Create a mount point:
-```bash
-sudo mkdir -p /mnt/smb_share
-```
-
-### Mount with Credentials:
-```bash
-sudo mount -t cifs //server-ip/Sharename /mnt/smb_share -o username=your_user,password=your_pass,iocharset=utf8
-```
-
-### Example:
-```bash
-sudo mount -t cifs //192.168.1.100/SharedFiles /mnt/smb_share -o username=user1,password=yourpass
-```
-
-> ✅ Use `vers=3.0`, `vers=2.1`, etc. if needed:  
-```bash
--o username=user1,password=yourpass,vers=3.0
-```
-
----
-
-## 🔐 5. Store Credentials Securely
-
-Create a file:
-```bash
-sudo nano /etc/samba/credentials
-```
-
-Add:
-```
-username=your_user
-password=your_pass
-```
-
-Set permissions:
-```bash
-sudo chmod 600 /etc/samba/credentials
-```
-
-Mount using:
-```bash
-sudo mount -t cifs //192.168.1.100/SharedFiles /mnt/smb_share -o credentials=/etc/samba/credentials,iocharset=utf8
-```
-
----
-
-## 📌 6. Persistent Mount via `/etc/fstab`
-
-Add to `/etc/fstab`:
-```fstab
-//192.168.1.100/SharedFiles /mnt/smb_share cifs credentials=/etc/samba/credentials,iocharset=utf8,uid=1000,gid=1000 0 0
-```
-
-Reload mounts:
-```bash
-sudo mount -a
-```
-
----
-
-## 🧪 7. Troubleshooting
-
-- View mount errors:
-  ```bash
-  dmesg | grep CIFS
-  journalctl -xe
-  ```
-
-- Check required kernel support:
-  ```bash
-  modinfo cifs
-  ```
-
----
-
-## 📦 Common Tools Summary
-
-| Tool          | Purpose                              |
-|---------------|--------------------------------------|
-| `smbclient`   | CLI tool to connect to SMB shares    |
-| `cifs-utils`  | Provides CIFS mount support          |
-| `nmblookup`   | Find NetBIOS names on the network    |
-| `smbtree`     | Graphically browse SMB network shares|
 
 ---
