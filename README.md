@@ -152,7 +152,7 @@
 - 🧰 [Debian 12 Setup Guide 🐧](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Debian%2012%20Setup%20Guide.md#debian-12-setup-guide)
 ---
 
-<h1 align="center"> 🐧 🖥️ 📡 📶 Dynamic Host Configuration Protocol (DHCP) Server 📶 📡 🖥️ 🐧</h1>
+<h1 align="center"> 🐧🖥️ Dynamic Host Configuration Protocol (DHCP) Server 📶📡</h1>
 
 ## 🌐 DHCP Server Overview 🌐
 - 📡 [Dynamic IP](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DHCP%20Server%20in%20Linux/Installation%20on%20CentOS/1.%20Dynamic%20IP.md#what-is-a-dhcp-server)
@@ -162,9 +162,9 @@
 - 🔄 [Different Pools for Known & Unknown Clients](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DHCP%20Server%20in%20Linux/Installation%20on%20CentOS/5.%20Different%20Pools%20for%20Known%20%26%20Unknown%20Clients.md#-dhcp-configuration-different-pools-for-known--unknown-clients)
 - 🅽 [Nginx Configuration](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DHCP%20Server%20in%20Linux/Installation%20on%20CentOS/Nginx%20Configure%20on%20CentOS.md#-what-is-nginx)
 
-<h1 align="center"> 🐧 🖥️ 📡 🌐 DNS Server 🌐 📡 🖥️ 🐧</h1> 
+<h1 align="center"> 🐧🌐 Domain Name System (DNS) Server 📡📶</h1> 
 
-## 🌐 Domain Name System (DNS) Server Overview 🌐
+## 🌐  Domain Name System (DNS) Server Overview 🌐
 - 🔠 [DNS Records Types](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/CentOS/2.%20DNS%20Records%20Types.md#-dns-records-)
 - 🌍 [DNS Client Tools (bind-utils)](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/CentOS/3.%20DNS%20Client%20Tools%20bind-utils.md#%EF%B8%8F-dns-client-tools--commands-in-linux)
   - 🛠️ [dig](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/DNS%20Server%20in%20Linux/CentOS/4.%20dig%2C%20nslookup%20and%20host%20DNS%20Lookup%20tools.md#%EF%B8%8F-dig-command--dns-lookup--troubleshooting-tool)
