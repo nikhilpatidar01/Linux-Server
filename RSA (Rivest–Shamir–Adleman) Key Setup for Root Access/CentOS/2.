@@ -1,0 +1,187 @@
+
+### SSH Keygen Usage and SSH Authentication Setup
+
+This document provides a comprehensive guide to generating SSH keys, configuring public key authentication, setting appropriate permissions, and connecting to remote servers using RSA and DSA key generation.
+
+---
+
+#### 1. **Generate A Basic SSH Key Pair**
+
+This command generates a default RSA key pair and stores it in `~/.ssh/id_rsa` and `~/.ssh/id_rsa.pub`.
+
+```bash
+ssh-keygen
+```
+
+---
+
+#### 2. **Generate An RSA Key Without A Passphrase**
+
+This creates an RSA key with no passphrase for passwordless login.
+
+```bash
+ssh-keygen -t rsa -q -N ""
+```
+
+---
+
+#### 3. **Add The Public Key To Authorized Keys**
+
+Copies the public key to the list of authorized keys on the local system to allow SSH login.
+
+```bash
+cp /root/.ssh/id_rsa.pub /root/.ssh/authorized_keys
+```
+
+---
+
+#### 4. **Create A Custom Private Key File**
+
+Use `vim` or your preferred editor to create a file named `id_rsa_centos`. Paste your private key content into it.
+
+```bash
+vim /root/.ssh/id_rsa_centos
+```
+
+---
+
+#### 5. **Secure The Private Key**
+
+Set permissions on your private key to ensure it is only readable by the owner.
+
+```bash
+chmod 600 /root/.ssh/id_rsa_centos
+```
+
+---
+
+#### 6. **SSH Into A Server Using A Custom Key**
+
+Specify the key file while connecting to a remote server.
+
+```bash
+ssh -i /root/.ssh/id_rsa_centos root@192.168.1.38
+```
+
+---
+
+#### 7. **Generate RSA Keys With Different Bit Sizes And Passphrases**
+
+- **2048-Bit RSA Key With A Passphrase:**
+
+```bash
+ssh-keygen -b 2048 -t rsa -f /tmp/id_rsa -q -N "Ormour123"
+```
+
+- **2048-Bit RSA Key Without A Passphrase:**
+
+```bash
+ssh-keygen -b 2048 -t rsa -f /tmp/id_rsa -q -N ""
+```
+
+- **Default Key Location With A Passphrase:**
+
+```bash
+ssh-keygen -b 2048 -t rsa -f /root/.ssh/id_rsa -q -N "Ormour123"
+```
+
+- **Simple RSA Key Generation With Filename And Passphrase:**
+
+```bash
+ssh-keygen -t rsa -f /tmp/id_rsa3 -q -N "Ormour123"
+```
+
+---
+
+#### 8. **Check The Key File Type**
+
+Check the type of the generated private and public key files.
+
+```bash
+file /root/.ssh/id_rsa3
+file /root/.ssh/id_rsa3.pub
+```
+
+---
+
+#### 9. **Move The Private Key To The SSH Directory**
+
+Use `-v` for verbose output during the copy.
+
+```bash
+cp -v /root/.ssh/id_rsa_centos /root/.ssh/
+```
+
+---
+
+#### 10. **SSH Without A Custom Key**
+
+Connect to a server using the default identity file.
+
+```bash
+ssh root@192.168.1.25
+```
+
+---
+
+#### 11. **SSH Using Specific Key And Key Type Option**
+
+Use a custom identity file and specify acceptable public key types.
+
+```bash
+ssh -o PubkeyAcceptedKeyTypes=ssh-rsa -i /root/.ssh/id_rsa3 root@192.168.1.33
+```
+
+---
+
+#### 12. **Generate A DSA Key**
+
+- **1024-Bit DSA Key Without A Passphrase:**
+
+```bash
+ssh-keygen -b 1024 -t dsa -f /tmp/id_dsa -q -N ""
+```
+
+- **DSA Key With A Passphrase:**
+
+```bash
+ssh-keygen -t dsa -f /tmp/id_dsa -q -N "Ormour123"
+```
+
+---
+
+#### 13. **Add DSA Public Key To Authorized Keys**
+
+```bash
+cp /tmp/id_dsa.pub /root/.ssh/authorized_keys
+```
+
+---
+
+#### 14. **Set Proper Permissions On Authorized Keys**
+
+```bash
+chmod 644 /root/.ssh/authorized_keys
+```
+
+---
+
+#### 15. **Example Private Key**
+
+This is an example of an RSA private key block. Save this in a file like `id_rsa` and secure it with `chmod 600`.
+
+```-----BEGIN OPENSSH PRIVATE KEY-----
+b3B1bnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAB1wAAAAdzc2gtcnNhAAAAAwEAAQAAAYEAm1Ht2ØiLC OQZwZXokpZZL9QAmqVN7z p9NedWiGzrj tXBqDi fOk4qEebEpUD6yu0LrrixEzcVRdXE8D00V8c7W17UNE7vU11/F01eRiQBzZQXXCv1ØYfqfV81KL54QRi21Qi1rdPMDiiFXnMjmLi6hjUwT2baYVn7MYoKdyQjDQCMeyf5tg1SN6iL4PKvaRd+3EN17F77HnBIVFkSdRØfr9P07cH1j+Vw5DodØ968a58cuØWuJZrHLdXOc99Nd193Lt7Y6dovz3qasfxQDqNSwYJYNe3fOuHGBBt1mElrIADeAw53c840TuHh/S5*2RRmhm00jyZ60RdMiVCNDQyRQj41bTb5+K6fXj4fRØwYJx7jOj9nRrc2hM3U/Ff6w044CceVgQFLJ7CAPnfdEpGm1pjigN2fxA8cQgHLJR/RSBn3HwOK1fs/5AAAFgEDY2MhA2Nj1AAAAB3NzaC1yc2EAAAGBAJtR/tt1iwtEGcGV6JKWKS/UAJq1Te86fTXnVohs647Vwag4nzpOKhHmxKVA.srj166"RM3FmxPA6D1fH01te1DR071JZfxaNXkYkAc2UF1wryNGH6n1fNSi.eEEYttU1iK3TzA40hV5z15i4uoYIME9m2mFZ+j3rm7eLfbxTWgi28jL32aC+vtvVr2XeHAgob2tDPSJWu4kyx2rrTAfovgriLVI sSK8hpzq9xDdexe•xSwdVRZEnUdH6/T603B9Y/1cDOQ6HdPevGufHLtFriWaxy3VznPfTXdfdy7e20naL•xHDrs96mrH8UA6jecGCWDXt3zrhxgQbSJhCKSQA3gMOd3PONE7h4fØucdkUZoZtK18meqEXT11QjQØMkU1+NWØ2+fiun14*HØdMGCceqzo/ZØa3N0TNIPxX.sDuOAnHIYEBVOwgDS33RKRpiKY4oDdn8QPHEIByyUfØUgZ9x8Di iH7P.QAAAAMBAAEAAAGAAN01YjnWkCL6U7HOP9Z304Vd1X
+-----END OPENSSH PRIVATE KEY-----
+
+```
+
+---
+
+### Notes:
+- Always protect your private keys using appropriate file permissions.
+- Do not share private keys; share only the public key.
+- Use passphrases for an added layer of security unless automation is required.
+- DSA is considered weaker than RSA and is generally discouraged unless needed for compatibility.
+
+---
