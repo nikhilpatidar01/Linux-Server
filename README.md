@@ -254,5 +254,15 @@
 - ⛔ [Prevent Root Login via SSH](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/SSH%20(Secure%20Shell)%20Server/CentOS/4.%20Prevent%20Root%20Login%20via%20SSH.md#prevent-root-login-via-ssh)
 - ✅ [Enable Root Login via SSH](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/SSH%20(Secure%20Shell)%20Server/CentOS/5.%20Enable%20Root%20Login%20via%20SSH.md#enable-root-login-via-ssh)
 
+
+<h1 align="center">🔐 RSA and DSA Key Setup for Root Access</h1>
+
+## 🔑 RSA and DSA Key Setup for Root Access
+
+- 📁 [SSH Public and Private Key Configuration](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/RSA%20(Rivest%E2%80%93Shamir%E2%80%93Adleman)%20Key%20Setup%20for%20Root%20Access/CentOS/1.%20SSH%20Public%20and%20Private%20Key%20Configuration.md#-what-is-rsa)
+- 🛠️ [SSH Keygen Usage and SSH Authentication Setup](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/RSA%20(Rivest%E2%80%93Shamir%E2%80%93Adleman)%20Key%20Setup%20for%20Root%20Access/CentOS/2.%20SSH%20Keygen%20Usage%20and%20SSH%20Authentication%20Setup.md#-ssh-keygen-usage-and-ssh-authentication-setup)
+- 🚫 [Managing IP Allow and Deny in SSH](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/RSA%20(Rivest%E2%80%93Shamir%E2%80%93Adleman)%20Key%20Setup%20for%20Root%20Access/CentOS/3.%20Managing%20IP%20Allow%20and%20Deny%20in%20SSH.md#-managing-ip-allow-and-deny-in-ssh)
+- 📋 [Managing Access with hosts.allow and hosts.deny](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/RSA%20(Rivest%E2%80%93Shamir%E2%80%93Adleman)%20Key%20Setup%20for%20Root%20Access/CentOS/4.%20Managing%20Access%20with%20hosts.allow%20and%20hosts.deny.md#-managing-access-with-hostsallow-and-hostsdeny)
+
 ---
 
