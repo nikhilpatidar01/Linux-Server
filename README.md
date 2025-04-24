@@ -256,12 +256,10 @@
 
 
 ## 🔐 SSH Public and Private Key
-
-
-- 📁 [SSH Public and Private Key Configuration]()
-- 🛠️ [SSH Keygen Usage and SSH Authentication Setup]()
-- 🚫 [Managing IP Allow and Deny in SSH]()
-- 📋 [Managing Access with hosts.allow and hosts.deny]()
+- 📁 [SSH Public and Private Key Configuration](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/SSH%20(Secure%20Shell)%20Server/CentOS/SSH%20Public%20and%20Private%20Key/1.%20SSH%20Public%20and%20Private%20Key%20Configuration.md#-what-is-rsa)
+- 🛠️ [SSH Keygen Usage and SSH Authentication Setup](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/SSH%20(Secure%20Shell)%20Server/CentOS/SSH%20Public%20and%20Private%20Key/2.%20SSH%20Keygen%20Usage%20and%20SSH%20Authentication%20Setup.md#-ssh-keygen-usage-and-ssh-authentication-setup)
+- 🚫 [Managing IP Allow and Deny in SSH](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/SSH%20(Secure%20Shell)%20Server/CentOS/SSH%20Public%20and%20Private%20Key/3.%20Managing%20IP%20Allow%20and%20Deny%20in%20SSH.md#-managing-ip-allow-and-deny-in-ssh)
+- 📋 [Managing Access with hosts.allow and hosts.deny](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/SSH%20(Secure%20Shell)%20Server/CentOS/SSH%20Public%20and%20Private%20Key/4.%20Managing%20Access%20with%20hosts.allow%20and%20hosts.deny.md#-managing-access-with-hostsallow-and-hostsdeny)
 
 ---
 
