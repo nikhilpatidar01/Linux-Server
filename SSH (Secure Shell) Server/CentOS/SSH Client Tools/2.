@@ -1,0 +1,86 @@
+## Secure Copy (SCP) 🔹
+
+Secure Copy (SCP) is a network protocol used to securely transfer files between a local and a remote system, or between two remote systems, over an encrypted SSH connection. It ensures data integrity and confidentiality during the transfer by encrypting the files and authentication details.
+
+---
+
+### 🔸 To send a single file to a specific directory on the remote server:  
+```bash
+scp file.txt root@192.168.1.34:/root/
+```
+```bash
+scp ftp-server.py root@192.168.1.31:/tmp/
+```
+**Explanation**:  
+- Copies `file.txt` and `ftp-server.py` from the local system to the specified remote directories (`/root/`, `/tmp/`).
+
+---
+
+### 🔸 To transfer multiple files at once to the remote system:  
+```bash
+scp file1.txt file2.txt root@192.168.1.34:/home/root/
+```
+```bash
+scp image.png notes.md root@192.168.1.100:/var/www/html/
+```
+**Explanation**:  
+- Transfers multiple files (`file1.txt`, `file2.txt`, `image.png`, `notes.md`) to the specified directory on the remote server.
+
+---
+
+### 🔸 To recursively copy an entire directory and its contents from the local system to the remote system:  
+```bash
+scp -r /local/dir root@192.168.1.34:/remote/dir
+```
+```bash
+scp -r ~/Downloads root@192.168.1.34:/tmp/
+```
+**Explanation**:  
+- Uses the `-r` option to copy a directory and its contents recursively from the local system to the remote server.
+
+---
+
+### 🔸 To copy a file or folder from the remote server to the local machine:  
+```bash
+scp root@192.168.1.34:/root/file.txt ./local/dir/
+```
+```bash
+scp -r root@192.168.1.34:/var/www/html/ /tmp/
+```
+**Explanation**:  
+- Copies a file or directory from the remote server to the local machine. The `-r` option is used for directories.
+
+---
+
+### 🔸 To set a bandwidth limit during transfer (useful for slow networks):  
+```bash
+scp -l 500 file.zip root@192.168.1.20:/tmp/
+```
+**Explanation**:  
+- The `-l` option sets a bandwidth limit in kilobits per second (500 kbps in this case) to prevent network congestion.
+
+---
+
+### **Conclusion on Secure Copy (SCP)** 🔹
+
+1. **Secure File Transfer**:  
+   SCP securely transfers files using an encrypted SSH connection.
+
+2. **Data Integrity**:  
+   It encrypts files and authentication details, ensuring protection from unauthorized access.
+
+3. **Multiple File Transfers**:  
+   SCP supports transferring multiple files simultaneously.
+
+4. **Directory Transfer**:  
+   With `-r`, SCP can copy entire directories and their contents.
+
+5. **Local and Remote Transfers**:  
+   SCP supports both local-to-remote and remote-to-local file transfers.
+
+6. **Bandwidth Limiting**:  
+   The `-l` option lets you set bandwidth limits for transfers.
+
+7. **Simplicity and Security**:  
+   SCP is easy to use and ensures secure file transfer via SSH.
+---
