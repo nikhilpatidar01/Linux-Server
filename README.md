@@ -261,5 +261,11 @@
 - 🚫 [Managing IP Allow and Deny in SSH](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/SSH%20(Secure%20Shell)%20Server/CentOS/SSH%20Public%20and%20Private%20Key/3.%20Managing%20IP%20Allow%20and%20Deny%20in%20SSH.md#-managing-ip-allow-and-deny-in-ssh)
 - 📋 [Managing Access with hosts.allow and hosts.deny](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/SSH%20(Secure%20Shell)%20Server/CentOS/SSH%20Public%20and%20Private%20Key/4.%20Managing%20Access%20with%20hosts.allow%20and%20hosts.deny.md#-managing-access-with-hostsallow-and-hostsdeny)
 
+
+## 🔐 SSH Client Tools
+- 🖥️ [SSH (Secure Shell)](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/SSH%20(Secure%20Shell)%20Server/CentOS/SSH%20Client%20Tools/1.%20SSH%20(Secure%20Shell).md#ssh-client-tools)
+- 📤 [SCP (Secure Copy)](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/SSH%20(Secure%20Shell)%20Server/CentOS/SSH%20Client%20Tools/2.%20SCP%20(Secure%20Copy).md#what-is-scp-secure-copy-)
+- 🔄 [Rsync, WinSCP, PuTTygen](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/SSH%20(Secure%20Shell)%20Server/CentOS/SSH%20Client%20Tools/3.%20Rsync%2C%20WinSCP%2C%20PuTTygen.md#-what-is-rsync)
+
 ---
 
