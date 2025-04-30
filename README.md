@@ -267,5 +267,14 @@
 - 📤 [SCP (Secure Copy)](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/SSH%20(Secure%20Shell)%20Server/CentOS/SSH%20Client%20Tools/2.%20SCP%20(Secure%20Copy).md#what-is-scp-secure-copy-)
 - 🔄 [Rsync, WinSCP, PuTTygen](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/SSH%20(Secure%20Shell)%20Server/CentOS/SSH%20Client%20Tools/3.%20Rsync%2C%20WinSCP%2C%20PuTTygen.md#-what-is-rsync)
 
+
+<h1 align="center">🛡️ Proxy Server 🌐</h1> 
+
+## ⚙️ Proxy Server Installation and Configuration 
+
+- 🚀 [Squid Proxy Server Setup](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Proxy%20Server/CentOS/1.%20Squid%20Proxy%20Server%20Setup.md#squid-proxy-server-setup-on-centos)
+- 🔒 [Access Control List (ACL) in Squid](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Proxy%20Server/CentOS/2.%20Access%20Control%20List%20(ACL)%20in%20Squid.md#access-control-list-acl-in-squid)
+- 🧑‍💻 [User Authentication Using Squid Proxy](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Proxy%20Server/CentOS/3.%20User%20Authentication%20Using%20Squid%20Proxy.md#what-is-user-authentication)
+
 ---
 
