@@ -270,11 +270,26 @@
 
 <h1 align="center">🛡️ Proxy Server 🌐</h1> 
 
-## ⚙️ Proxy Server Installation and Configuration 
+## 🖥️ Proxy Server Installation and Configuration 
 
 - 🚀 [Squid Proxy Server Setup](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Proxy%20Server/CentOS/1.%20Squid%20Proxy%20Server%20Setup.md#squid-proxy-server-setup-on-centos)
-- 🔒 [Access Control List (ACL) in Squid](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Proxy%20Server/CentOS/2.%20Access%20Control%20List%20(ACL)%20in%20Squid.md#access-control-list-acl-in-squid)
+- 🔒 [Access Control List (ACL) in Squid](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Proxy%20Server/CentOS/2.%20Access%20Control%20List%20%28ACL%29%20in%20Squid.md#access-control-list-acl-in-squid)
 - 🧑‍💻 [User Authentication Using Squid Proxy](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Proxy%20Server/CentOS/3.%20User%20Authentication%20Using%20Squid%20Proxy.md#what-is-user-authentication)
+- 🌐 [Squid Transparent Proxy](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Proxy%20Server/CentOS/4.%20Squid%20Transparent%20Proxy.md#first-this-needs-to-be-done-on-the-client-pc)
+- 🔐 [SSL Bump with Squid Proxy](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Proxy%20Server/CentOS/5.%20SSL%20Bump%20with%20Squid%20Proxy.md#ssl-bump-with-squid-proxy-)
+
+<h1 align="center">💻 Telnet Server 🔒</h1> 
+
+## 🖥️ Telnet Server Installation and Configuration 
+
+- 🛠️ [Telnet Server Setup](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Telnet/CentOS/1.%20Telnet%20Server%20Setup.md#telnet-server-setup-on-centosrhel)
+
+<h1 align="center">💻 RDP Remote Desktop 🔒</h1>
+
+## 💡 RDP Remote Desktop Installation and Configuration
+
+- 🖥️ [Rdesktop - What is RDP?](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/RDP%20Remote%20Desktop/CentOS/1.%20Rdesktop.md#-what-is-rdp)
+- 🖥️ [Xfreerdp - Xfreerdp Setup Guide](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/RDP%20Remote%20Desktop/CentOS/2.%20Xfreerdp.md#xfreerdp)
 
 ---
 
