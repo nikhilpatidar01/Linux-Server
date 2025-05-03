@@ -1,0 +1,130 @@
+
+# 🖥️ XRDP Server on Kali Linux
+
+This guide explains how to install, configure, and manage the XRDP remote desktop server on Kali Linux.
+
+---
+
+## 🔄 Updating Package Index
+
+Update the system's package lists to ensure the latest package versions:
+
+```bash
+apt update
+```
+
+* Ensures you have the latest available versions of packages and dependencies.
+
+---
+
+## 📦 Installing XRDP
+
+Install the `xrdp` package:
+
+```bash
+apt install xrdp
+```
+
+* Downloads and installs the XRDP server for remote desktop access.
+
+---
+
+## 🔁 Enabling XRDP Service at Boot
+
+Enable XRDP to start automatically at system boot:
+
+```bash
+systemctl enable xrdp
+```
+
+---
+
+## ▶️ Starting and Restarting XRDP Services
+
+Restart XRDP service:
+
+```bash
+systemctl restart xrdp
+```
+
+Restart `xrdp-sesman` service:
+
+```bash
+systemctl restart xrdp-sesman
+```
+
+* `xrdp-sesman` manages user sessions for XRDP.
+
+---
+
+## 📡 Verifying Listening Ports
+
+Check if XRDP is listening on TCP port 3389:
+
+```bash
+netstat -nltup
+```
+
+* Look for `xrdp` entries on port `3389`.
+
+---
+
+## 🛠️ Manually Starting XRDP Services (Alternative Method)
+
+If `systemctl` is not preferred, use the traditional `service` command:
+
+```bash
+service xrdp start
+service xrdp-sesman start
+```
+
+---
+
+## 🚀 Enabling XRDP at Startup (Alternative Method)
+
+Enable XRDP at boot using `update-rc.d`:
+
+```bash
+update-rc.d xrdp enable
+```
+
+* Useful for older systems or when `systemctl` is unavailable.
+
+---
+
+## 🔍 Checking XRDP Service Status
+
+Verify that the XRDP service is running:
+
+```bash
+service xrdp status
+```
+
+---
+
+### 🌐 Connecting to the XRDP Server
+
+Connect from a client machine:
+
+```bash
+rdesktop 192.168.12.145
+```
+
+🔁 *Replace **192.168.12.145** with your server's IP address.*
+
+🪟 *Alternatively, you can use **Windows Remote Desktop (mstsc)**.*
+
+
+---
+
+## 📝 Additional Notes
+
+* ✅ Ensure a desktop environment (like **XFCE**, **MATE**, etc.) is installed for GUI access.
+* 🔥 Kali Linux may block RDP connections by default — ensure firewall ports (3389/tcp) are open.
+* 🪵 For troubleshooting, check the following logs:
+
+  * `/var/log/xrdp-sesman.log`
+  * `/var/log/xrdp.log`
+
+---
+
