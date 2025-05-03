@@ -288,8 +288,10 @@
 
 ## 💡 RDP Remote Desktop Installation and Configuration
 
-- 🖥️ [Rdesktop - What is RDP?](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/RDP%20Remote%20Desktop/CentOS/1.%20Rdesktop.md#-what-is-rdp)
-- 🖥️ [Xfreerdp - Xfreerdp Setup Guide](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/RDP%20Remote%20Desktop/CentOS/2.%20Xfreerdp.md#xfreerdp)
-
+- 🖥️ [Rdesktop](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/RDP%20Remote%20Desktop/CentOS/1.%20Rdesktop.md#-what-is-rdp)
+- 🖥️ [Xfreerdp](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/RDP%20Remote%20Desktop/CentOS/2.%20Xfreerdp.md#xfreerdp)
+- 🖥️ [Remmina](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/RDP%20Remote%20Desktop/CentOS/3.%20Remmina.md#-what-is-remmina)
+- 🖥️ [NoMachine](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/RDP%20Remote%20Desktop/CentOS/4.%20NoMachine.md#key-features)
+- 🖥️ [XRDP](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/RDP%20Remote%20Desktop/CentOS/5.%20XRDP.md#what-is-xrdp)
 ---
 
