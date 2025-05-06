@@ -152,7 +152,7 @@ reboot
 ### 9. SSH from a Different User
 
 ```bash
-ssh sachin@192.168.1.21
+ssh nikhil@192.168.1.21
 ```
 
 Switch to root:
