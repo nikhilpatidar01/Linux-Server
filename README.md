@@ -293,6 +293,7 @@
 - 🖥️ [Remmina](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/RDP%20Remote%20Desktop/CentOS/3.%20Remmina.md#-what-is-remmina)
 - 🖥️ [NoMachine](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/RDP%20Remote%20Desktop/CentOS/4.%20NoMachine.md#key-features)
 - 🖥️ [XRDP](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/RDP%20Remote%20Desktop/CentOS/5.%20XRDP.md#what-is-xrdp)
+- 🖥️ [VNC](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/RDP%20Remote%20Desktop/CentOS/6.%20VNC%20Server.md#%EF%B8%8F-vnc-server-setup-guide-for-centos-9-stream)
 
 <h1 align="center">💻 Preboot eXecution Environment (PXE) Server 🔧</h1>
 
