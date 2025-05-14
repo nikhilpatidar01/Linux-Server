@@ -303,8 +303,6 @@
 
 <h1 align="center">🔐 LDAP (Lightweight Directory Access Protocol) Server 🛠️</h1>
 
-<h1 align="center">🛡️ LDAP (Lightweight Directory Access Protocol) Server 🧩</h1>
-
 ## 🧠 LDAP Server Setup and Configuration
 
 - 🛠️ [LDAP Server Setup Guide]()
