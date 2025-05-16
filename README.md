@@ -151,7 +151,7 @@
 ### 🐧 Debian 12 Setup Full Guide
 - 🧰 [Debian 12 Setup Guide 🐧](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Debian%2012%20Setup%20Guide.md#debian-12-setup-guide)
 ---
-<h1 align="center">🐧 Linux SErver 🐧</h1>
+<h1 align="center">🐧 Linux Server 🐧</h1>
 
 
 ## 🌐 Dynamic Host Configuration Protocol (DHCP) Server 🌐
