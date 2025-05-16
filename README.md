@@ -191,10 +191,10 @@
 - 🌐 [Binding Multiple Websites with SSL](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/CentOS/Apache%20Web%20Server/2.%20PHP,%20MySQL,%20Wordpress%20Installation%20and%20Configurartion/1.%20Apache%20Web%20Server%20Binding%20IP,%20Port,%20Domain%20Name,%20SSL%20/6.%20Binding%20Multiple%20Websites%20%20with%20SSL.md#multiple-websites-binding--with-ssl)
 
 
-## 🐧 PHP, MySQL and Wordpress Installation and Configuration 🌍  
-- 🐘 [PHP Installation and Configuration](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/CentOS/Apache%20Web%20Server/2.%20PHP%2C%20MySQL%2C%20Wordpress%20Installation%20and%20Configurartion/2.%20PHP%2C%20MySQL%20Wordpress%20Installation%20and%20Configuration/1.%20PHP%20Installation%20in%20Centos.md#what-is-php)
-- 📝 [MySQL Installation and Configuration](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/CentOS/Apache%20Web%20Server/2.%20PHP%2C%20MySQL%2C%20Wordpress%20Installation%20and%20Configurartion/2.%20PHP%2C%20MySQL%20Wordpress%20Installation%20and%20Configuration/2.%20MySQL%20Installation%20and%20Configuration%20in%20Centos.md#what-is-mysql)
-- 🌍 [Wordpress Installation and Configuration](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/CentOS/Apache%20Web%20Server/2.%20PHP%2C%20MySQL%2C%20Wordpress%20Installation%20and%20Configurartion/2.%20PHP%2C%20MySQL%20Wordpress%20Installation%20and%20Configuration/3.%20WordPress%20Installation%20and%20Configuration.md#what-is-wordpress)
+## 🐧 PHP, MySQL and Wordpress  🌍  
+- 🐘 [PHP ](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/CentOS/Apache%20Web%20Server/2.%20PHP%2C%20MySQL%2C%20Wordpress%20Installation%20and%20Configurartion/2.%20PHP%2C%20MySQL%20Wordpress%20Installation%20and%20Configuration/1.%20PHP%20Installation%20in%20Centos.md#what-is-php)
+- 📝 [MySQL ](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/CentOS/Apache%20Web%20Server/2.%20PHP%2C%20MySQL%2C%20Wordpress%20Installation%20and%20Configurartion/2.%20PHP%2C%20MySQL%20Wordpress%20Installation%20and%20Configuration/2.%20MySQL%20Installation%20and%20Configuration%20in%20Centos.md#what-is-mysql)
+- 🌍 [Wordpress ](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/CentOS/Apache%20Web%20Server/2.%20PHP%2C%20MySQL%2C%20Wordpress%20Installation%20and%20Configurartion/2.%20PHP%2C%20MySQL%20Wordpress%20Installation%20and%20Configuration/3.%20WordPress%20Installation%20and%20Configuration.md#what-is-wordpress)
 - 📂 [Directory Listing on a Website](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/CentOS/Apache%20Web%20Server/2.%20PHP,%20MySQL,%20Wordpress%20Installation%20and%20Configurartion/2.%20PHP,%20MySQL%20Wordpress%20Installation%20and%20Configuration/4.%20Directory%20Listing%20on%20a%20Website.md#-apache-directory-listing-security-configuration-guide-for-centos)
 - 🏠 [User Home Directories](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/CentOS/Apache%20Web%20Server/2.%20PHP,%20MySQL,%20Wordpress%20Installation%20and%20Configurartion/2.%20PHP,%20MySQL%20Wordpress%20Installation%20and%20Configuration/5.%20User%20Home%20Directories.md#-enable-apache-user-home-directories-centosrhel)
 - 🔗 [WebDAV with Apache](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/CentOS/Apache%20Web%20Server/2.%20PHP%2C%20MySQL%2C%20Wordpress%20Installation%20and%20Configurartion/2.%20PHP%2C%20MySQL%20Wordpress%20Installation%20and%20Configuration/6.%20WebDAV%20with%20Apache.md#webdav-with-apache)
@@ -216,10 +216,10 @@
 
 ## 📂 NFS (Network File System) Server Configuration 📡 
 
-- 🔧 [Network File System (NFS) Installation and Configuration](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Network%20File%20System%20(NFS)%20Configuration/CentOS/1.%20Network%20File%20System%20(NFS)%20Server.md#network-file-system-nfs-setup)
+- 🔧 [Network File System (NFS) ](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Network%20File%20System%20(NFS)%20Configuration/CentOS/1.%20Network%20File%20System%20(NFS)%20Server.md#network-file-system-nfs-setup)
 
 
-## 🗂️ SMB (Samba) Server Installation and Configuration 🧰
+## 🗂️ SMB (Samba) Server  🧰
 
 - 🖥️ [SMB (Samba) Client Tools](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/SMB%20Server%20%20(Samba)/CentOS/1.%20SMB%20(Samba)%20Client%20Tools.md#-smb-client)
 - 🗃️ [Samba Server Setup](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/SMB%20Server%20%20(Samba)/CentOS/2.%20Samba%20Server%20Setup.md#samba-server-setup)
@@ -228,12 +228,12 @@
 - 🔐 [Share With Selected Users on Samba](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/SMB%20Server%20%20(Samba)/CentOS/5.%20Share%20With%20Selected%20Users%20on%20Samba.md#share-with-selected-users)
 
 
-## 🗂️ Trivial File Transfer Protocol (TFTP) Server Installation and Configuration 📤 
+## 🗂️ Trivial File Transfer Protocol (TFTP) Server  📤 
 
 - 📤 [TFTP Server Setup](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Trivial%20File%20Transfer%20Protocol%20(TFTP)%20Server/CentOS/1.%20%20Trivial%20File%20Transfer%20Protocol%20(TFTP)%20Server%20Setup.md#-trivial-file-transfer-protocol-tftp-server-setup-on-rhelcentos)
 - 🖥️ [TFTP Client Usage](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Trivial%20File%20Transfer%20Protocol%20(TFTP)%20Server/CentOS/2.%20TFTP%20Client%20Usage.md#tftp-client-usage-on-rhelcentos)
 
-## 🔐 SSH (Secure Shell) Server Installation and Configuration 🖧 
+## 🔐 SSH (Secure Shell) Server  🖧 
 
 - 🚀 [SSH (Secure Shell) Server Setup](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/SSH%20(Secure%20Shell)%20Server/CentOS/SSH%20(Secure%20Shell)%20Server%20/1.%20SSH%20(Secure%20Shell)%20Server%20Setup.md#-introduction-to-ssh)
 - 🔄 [Change Default SSH Port](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/SSH%20(Secure%20Shell)%20Server/CentOS/SSH%20(Secure%20Shell)%20Server%20/2.%20Change%20Default%20SSH%20Port.md#-change-default-ssh-port-on-centosrhel)
@@ -255,7 +255,7 @@
 - 🔄 [Rsync, WinSCP, PuTTygen](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/SSH%20(Secure%20Shell)%20Server/CentOS/SSH%20Client%20Tools/3.%20Rsync%2C%20WinSCP%2C%20PuTTygen.md#-what-is-rsync)
 
 
-## 🛡️ Proxy Server Installation and Configuration 🌐 
+## 🛡️ Proxy Server  🌐 
 
 - 🚀 [Squid Proxy Server Setup](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Proxy%20Server/CentOS/1.%20Squid%20Proxy%20Server%20Setup.md#squid-proxy-server-setup-on-centos)
 - 🔒 [Access Control List (ACL) in Squid](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Proxy%20Server/CentOS/2.%20Access%20Control%20List%20%28ACL%29%20in%20Squid.md#access-control-list-acl-in-squid)
@@ -263,12 +263,12 @@
 - 🌐 [Squid Transparent Proxy](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Proxy%20Server/CentOS/4.%20Squid%20Transparent%20Proxy.md#first-this-needs-to-be-done-on-the-client-pc)
 - 🔐 [SSL Bump with Squid Proxy](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Proxy%20Server/CentOS/5.%20SSL%20Bump%20with%20Squid%20Proxy.md#ssl-bump-with-squid-proxy-)
 
-## 🖥️ Telnet Server Installation and Configuration 🔒 
+## 🖥️ Telnet Server  🔒 
 
 - 🛠️ [Telnet Server Setup](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Telnet/CentOS/1.%20Telnet%20Server%20Setup.md#telnet-server-setup-on-centosrhel)
 
 
-## 💡 RDP Remote Desktop Installation and Configuration 🔒
+## 💡 RDP Remote Desktop  🔒
 
 - 🖥️ [Rdesktop](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/RDP%20Remote%20Desktop/CentOS/1.%20Rdesktop.md#-what-is-rdp)
 - 🖥️ [Xfreerdp](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/RDP%20Remote%20Desktop/CentOS/2.%20Xfreerdp.md#xfreerdp)
