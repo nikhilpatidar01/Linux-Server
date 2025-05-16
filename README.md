@@ -185,7 +185,7 @@
 
 
 ## 🌐 Apache Web Server 🐧 
-- 🌐 [Apache Web Server Setup and Configuration](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/CentOS/Apache%20Web%20Server/2.%20PHP%2C%20MySQL%2C%20Wordpress%20Installation%20and%20Configurartion/1.%20Apache%20Web%20Server%20Binding%20IP%2C%20Port%2C%20Domain%20Name%2C%20SSL%20/1.%20Apache%20Web%20Server%20Setup%20and%20Configuration.md#apache-web-server-setup-and-configuration)
+- 🌐 [Apache Web Server ](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/CentOS/Apache%20Web%20Server/2.%20PHP%2C%20MySQL%2C%20Wordpress%20Installation%20and%20Configurartion/1.%20Apache%20Web%20Server%20Binding%20IP%2C%20Port%2C%20Domain%20Name%2C%20SSL%20/1.%20Apache%20Web%20Server%20Setup%20and%20Configuration.md#apache-web-server-setup-and-configuration)
 - 🌐 [Binding with IP Address in Apache](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/CentOS/Apache%20Web%20Server/2.%20PHP%2C%20MySQL%2C%20Wordpress%20Installation%20and%20Configurartion/1.%20Apache%20Web%20Server%20Binding%20IP%2C%20Port%2C%20Domain%20Name%2C%20SSL%20/2.%20Binding%20with%20IP%20Address%20in%20Apache.md#1-types-of-apache-binding)
 - 🌐 [Binding with Ports in Apache](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/CentOS/Apache%20Web%20Server/2.%20PHP%2C%20MySQL%2C%20Wordpress%20Installation%20and%20Configurartion/1.%20Apache%20Web%20Server%20Binding%20IP%2C%20Port%2C%20Domain%20Name%2C%20SSL%20/3.%20Binding%20with%20Ports%20in%20Apache.md#binding-with-port-number-in-apache)
 - 🌐 [Binding with Domain Names in Apache](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/CentOS/Apache%20Web%20Server/2.%20PHP%2C%20MySQL%2C%20Wordpress%20Installation%20and%20Configurartion/1.%20Apache%20Web%20Server%20Binding%20IP%2C%20Port%2C%20Domain%20Name%2C%20SSL%20/4.%20Binding%20with%20Domain%20Names%20in%20Apache.md#binding-with-domain-names-in-apache)
@@ -279,12 +279,12 @@
 - 🖥️ [XRDP](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/RDP%20Remote%20Desktop/CentOS/5.%20XRDP.md#what-is-xrdp)
 - 🖥️ [VNC](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/RDP%20Remote%20Desktop/CentOS/6.%20VNC%20Server.md#%EF%B8%8F-vnc-server-setup-guide-for-centos-9-stream)
 
-## 💡 Preboot eXecution Environment (PXE) Boot Server Setup and Configuration 💻
+## 💡 Preboot eXecution Environment (PXE) Boot Server  💻
 
 - 📘[PXE Boot Server Setup Guide](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/PXE%20(Preboot%20eXecution%20Environment)%20Server/CentOS/1.%20PXE%20Boot%20Server%20Setup.md#preboot-execution-environment-pxe-boot-server-setup)
 
 
-## 🔐 LDAP (Lightweight Directory Access Protocol) Server Setup and Configuration 🛠️
+## 🔐 LDAP (Lightweight Directory Access Protocol) Server  🛠️
 
 - 🛠️ [LDAP Server Setup Guide]()
 
