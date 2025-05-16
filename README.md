@@ -301,12 +301,12 @@
 
 - 📘[PXE Boot Server Setup Guide](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/PXE%20(Preboot%20eXecution%20Environment)%20Server/CentOS/1.%20PXE%20Boot%20Server%20Setup.md#preboot-execution-environment-pxe-boot-server-setup)
 
-<h1 align="center">🔐 LDAP (Lightweight Directory Access Protocol) Server 🛠️</h1>
+<h1 align="center">🔐 LDAP Server 🛠️</h1>
 
-## 🧠 LDAP Server Setup and Configuration
+## 🧠 LDAP (Lightweight Directory Access Protocol) Server Setup and Configuration
 
 - 🛠️ [LDAP Server Setup Guide]()
 
-
 ---
+<h4 align="center">🅾️ Created by <a href="https://github.com/nikhilpatidar01" target="_blank">Nikhil Patidar</a></h4>
 
