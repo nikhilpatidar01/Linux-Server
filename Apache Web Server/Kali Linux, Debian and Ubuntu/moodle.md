@@ -16,7 +16,7 @@ apt install apache2 mariadb-server php php-mysql libapache2-mod-php php-xml php-
 ## 🅱️ Step 2: Create Moodle Database
 
 ```bash
-mysql -u root -p
+mysql -u moodleuser -p
 ```
 
 When prompted, enter your MySQL root password. Example:
