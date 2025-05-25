@@ -259,14 +259,20 @@ Edit Zsh config:
 
 ```bash
 nano /root/.zshrc
-source ~/.zshrc
+```
+# source ~/.zshrc
+export PS1='%n@%m# '
 ```
 
 For another user:
 
 ```bash
 su - nikhil
+```
+```
 chsh -s $(which zsh)
+```
+```
 nano /home/nikhil/.zshrc
 ```
 
