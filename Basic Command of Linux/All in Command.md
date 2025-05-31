@@ -33,13 +33,42 @@ cd ../..          # Move up two levels.
 python --version  # Display installed Python version.
 ```
 
-## 📄 Viewing and Creating Files
+Here is your updated **`cat` command section** in clear and well-formatted **Markdown**, with explanations added for each command:
+
+---
+
+# 📄 cat Commands
+
+## 🔍 View File Contents
 
 ```bash
-cat n.txt         # View contents of 'n.txt'.
-cat > n.txt       # Create/overwrite 'n.txt' (Ctrl+D to save).
-cat >> n.txt      # Append text to 'n.txt' (Ctrl+D to save).
+cat n.txt                 # Display contents of 'n.txt'.
+cat -n file.txt           # Show contents with line numbers.
+cat -s file.txt           # Squeeze multiple blank lines into one.
+cat largefile.txt | less  # View large file one screen at a time.
 ```
+
+---
+
+## 📝 Create or Append to Files
+
+```bash
+cat > n.txt               # Create or overwrite 'n.txt'. (Press Ctrl+D to save)
+cat >> n.txt              # Append text to 'n.txt'. (Press Ctrl+D to save)
+```
+
+---
+
+## 🔗 Combine or Redirect Output
+
+```bash
+cat file1.txt file2.txt > merged.txt         # Merge file1 and file2 into merged.txt
+cat /var/log/syslog | grep "error"           # Search for "error" in syslog
+cat source.txt | tee destination.txt         # View and copy contents simultaneously
+cat *.log > all_logs.txt                     # Combine all `.log` files into one file
+```
+
+---
 
 ## 📄 File & Directory Operations
 
@@ -330,6 +359,88 @@ unzip archive.zip
 7z a archive.7z filename      # Add to archive.
 7z x archive.7z               # Extract archive.
 ```
+
+---
+
+# 📝 Linux Text Editors 
+## 📘 Nano (CLI – Simple & Beginner Friendly)
+
+```bash
+nano filename.txt
+```
+
+### 🔧 Common Shortcuts:
+
+| Action    | Shortcut                 |
+| --------- | ------------------------ |
+| 💾 Save   | `Ctrl + O`, then `Enter` |
+| ❌ Exit    | `Ctrl + X`               |
+| 🔍 Search | `Ctrl + W`               |
+| ✂️ Cut    | `Ctrl + K`               |
+| 📋 Paste  | `Ctrl + U`               |
+
+---
+
+## 📗 Vim (CLI – Advanced & Powerful)
+
+```bash
+vim filename.txt
+```
+
+### 🎮 Vim Modes:
+
+* **Normal Mode**: Default (move, copy, delete)
+* **Insert Mode**: Type text (`i`)
+* **Command Mode**: Save/Quit (`:`)
+
+### 🔧 Common Vim Commands:
+
+| Action         | Command    |
+| -------------- | ---------- |
+| ✏️ Insert Mode | `i`        |
+| 💾 Save        | `:w`       |
+| ❌ Quit         | `:q`       |
+| ⚠️ Force Quit  | `:q!`      |
+| 💾 Save & Quit | `:wq`      |
+| 🔍 Search      | `/keyword` |
+| 📑 Copy Line   | `yy`       |
+| 📋 Paste Line  | `p`        |
+
+---
+
+## 📕 Gedit (GUI – Simple Graphical Editor)
+
+```bash
+gedit filename.txt
+```
+
+* ✅ Graphical
+* ✅ Syntax Highlighting
+* ✅ Best for beginners
+
+---
+
+## 💡 VS Code (GUI – Developer Friendly)
+
+```bash
+apt install code
+code filename.txt
+```
+
+* ✅ GUI + Terminal
+* ✅ Extensions & Debugger
+* ✅ Best for Programming
+
+---
+
+## 📊 Editor Comparison Table
+
+| Editor      | Interface | Usability          | Best Use Case                  |
+| ----------- | --------- | ------------------ | ------------------------------ |
+| **Nano**    | CLI       | Easy & Lightweight | Quick file edits               |
+| **Vim**     | CLI       | Fast & Powerful    | Scripting and advanced editing |
+| **Gedit**   | GUI       | Simple GUI         | Notepad-like use               |
+| **VS Code** | GUI       | Full IDE           | Programming & Development      |
 
 ---
 
