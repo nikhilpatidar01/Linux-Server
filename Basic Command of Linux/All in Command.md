@@ -558,3 +558,43 @@ cat file.txt | grep "error" | awk '{print $2}' | sort | uniq -c
 
 ---
 
+### 📁 `tree` – Display directory structure in tree-like format
+
+```bash
+tree /path
+tree -L 2 /path  # Limit depth to 2 levels
+```
+
+
+---
+
+### 🔎 `find` – Search for files and directories
+
+```bash
+find /path -name "filename"
+find . -type f -name "*.txt"   # Find .txt files
+find /etc -type d -name "apache2"  # Find directory
+```
+
+
+---
+
+### ❓ `which` – Find the path of a command
+
+```bash
+which ls
+which python3
+```
+
+
+---
+
+### ❓ `whereis` – Locate the binary, source, and man page
+
+```bash
+whereis bash
+whereis gcc
+```
+
+---
+
