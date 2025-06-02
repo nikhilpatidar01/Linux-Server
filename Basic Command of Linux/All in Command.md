@@ -444,3 +444,117 @@ code filename.txt
 
 ---
 
+## 🔍 **Finding Files**
+
+### `find` – Search files and directories
+
+```bash
+find /path -name "filename"
+```
+
+### `locate` – Fast file searching (uses a database)
+
+```bash
+locate filename
+```
+
+---
+
+## 📋 **String Processing Tools**
+
+### `head` – Show beginning of file
+
+```bash
+head filename.txt
+head -n 5 filename.txt
+```
+
+### `tail` – Show end of file
+
+```bash
+tail filename.txt
+tail -n 5 filename.txt
+tail -f /var/log/syslog
+```
+
+### `watch` – Repeatedly run a command
+
+```bash
+watch -n 2 'ls -l'
+```
+
+### `wc` – Count lines, words, characters
+
+```bash
+wc filename.txt
+wc -l filename.txt  # Lines
+wc -w filename.txt  # Words
+wc -c filename.txt  # Bytes
+```
+
+### `sort` – Sort lines
+
+```bash
+sort file.txt
+sort -n file.txt
+sort -r file.txt
+```
+
+---
+
+## 🔎 **Text Searching and Filtering**
+
+### `grep` – Pattern matching
+
+```bash
+grep "text" file.txt
+grep -i "text" file.txt
+grep -r "text" /path
+```
+
+---
+
+## ✂️ **Cut & Paste**
+
+### `cut` – Extract columns
+
+```bash
+cut -d':' -f1 /etc/passwd
+cut -c1-5 file.txt
+```
+
+### `paste` – Merge lines side-by-side
+
+```bash
+paste file1.txt file2.txt
+```
+
+---
+
+## 🧪 **Text Processing with sed and awk**
+
+### `sed` – Stream editor
+
+```bash
+sed 's/old/new/' file.txt
+sed 's/old/new/g' file.txt
+sed -n '2,4p' file.txt
+```
+
+### `awk` – Pattern scanning and processing
+
+```bash
+awk '{print $1}' file.txt             # Print first column
+awk -F: '{print $1, $3}' /etc/passwd  # Custom field separator
+awk '/pattern/ {print $0}' file.txt   # Print lines matching pattern
+```
+
+💡 **Example: Combined Usage**
+
+```bash
+cat file.txt | grep "error" | awk '{print $2}' | sort | uniq -c
+```
+
+
+---
+
