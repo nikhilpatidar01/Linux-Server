@@ -596,5 +596,84 @@ whereis bash
 whereis gcc
 ```
 
+
+# ⚙️ **Linux Cheat Sheet: Process Management Commands**
+
 ---
+
+### 🧍‍♂️ `ps` – View running processes
+
+```bash
+ps                   # Shows current shell's processes
+ps -ef               # Full-format listing (common in scripts)
+ps aux               # Detailed listing (common in Debian-based)
+ps aux | grep apache # Search for "apache" processes
+```
+
+🔹 *Use to get Process IDs (PID) for `kill` or debugging.*
+
+---
+
+### ⚙️ `jobs` – Show background/stopped jobs in current terminal
+
+```bash
+jobs
+```
+
+🔹 *Lists jobs started in the current shell with `&` or paused with `Ctrl+Z`.*
+
+---
+
+### 🔁 `fg` – Resume a job in the foreground
+
+```bash
+fg %1     # Bring job 1 to foreground
+```
+
+🔹 *Used to resume background or suspended jobs.*
+
+---
+
+### 📊 `htop` – Interactive system process monitor
+
+```bash
+htop
+```
+
+🔹 *Real-time, colorful process viewer with keyboard navigation.*
+
+🔸 Install (if missing):
+
+```bash
+apt install htop     # Debian/Ubuntu/Kali
+```
+
+---
+
+### ❌ `kill` – Terminate processes by PID
+
+```bash
+kill 1234            # Send SIGTERM (polite stop)
+kill -9 1234         # Forcefully stop with SIGKILL
+kill -l              # List all signals
+```
+
+🔸 Kill by name:
+
+```bash
+pkill firefox        # Kill processes by name
+killall firefox      # Kill all instances of "firefox"
+```
+
+---
+
+✅ **Example Use Case**:
+
+```bash
+ps aux | grep vlc
+kill -9 <PID>
+```
+
+---
+
 
