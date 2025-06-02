@@ -597,7 +597,7 @@ whereis gcc
 ```
 
 
-# ⚙️ **Linux Cheat Sheet: Process Management Commands**
+# ⚙️ **Process Management Commands**
 
 ---
 
