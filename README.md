@@ -286,7 +286,7 @@
 
 ## 🔐 LDAP (Lightweight Directory Access Protocol) Server  🛠️
 
-- 🛠️ [LDAP Server Setup Guide]()
+- 🛠️ [LDAP Server Setup Guide](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/LDAP%20Server/Kali%20Linux%2C%20Debian%20and%20Ubuntu/1.%20LDAP%20Server%20Setup.md)
 
 ---
 <h4 align="center">🅾️ Created by <a href="https://github.com/nikhilpatidar01" target="_blank">Nikhil Patidar</a></h4>
