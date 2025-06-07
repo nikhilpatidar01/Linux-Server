@@ -32,7 +32,7 @@
 - 📝 [`vim`](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Text%20Editor/3.%20vim%20Editor.md)
 
 ## 🎨 GRC (Generic Colouriser) 
-- 🎨 [`GRC (Generic Colouriser) in Linux `](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/GRC%20(Generic%20Colouriser)%20/1.%20GRC%20(Generic%20Colouriser)%20Installation.md)
+- 🎨 [`GRC (Generic Colouriser) in Linux `](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/GRC%20(Generic%20Colouriser)%20/1.%20GRC%20(Generic%20Colouriser)%20Installation%20CentOS.md#-grc-generic-colouriser-installation-)
 
 ## 🔍 String Processing and Finding Files
 
