@@ -4,7 +4,14 @@
 This guide outlines the steps to set up a basic Debian 12 system: configuring networking, enabling SSH, and installing essential utilities like Zsh.
 
 ---
-
+### Install Network Manager
+```
+apt install network-manager
+```
+### Try running nmtui
+```
+nmtui
+```
 ### 1. SSH into the Debian System
 
 ```bash
