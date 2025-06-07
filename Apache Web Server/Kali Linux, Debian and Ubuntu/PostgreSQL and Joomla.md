@@ -55,6 +55,20 @@ systemctl status postgresql
 psql -h 192.168.169.130 -U nikhil -d postgres
 ```
 
+```
+su - postgres
+psql
+```
+```
+show result
+postgres=#
+```
+```
+Creating nikhil Role in PostgreSQL
+```
+```
+CREATE ROLE nikhil WITH SUPERUSER LOGIN PASSWORD 'Patidar@123';
+```
 ---
 
 ### 📚 PostgreSQL Commands Cheat Sheet
