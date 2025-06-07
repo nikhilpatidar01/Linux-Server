@@ -108,20 +108,33 @@ systemctl restart apache2
 
 ```bash
 cd /var/www/html
+```
+```
 mkdir joomla
+```
+```
 cd joomla
+```
+```
 wget https://downloads.joomla.org/cms/joomla5/5-3-1/Joomla_5-3-1-Stable-Full_Package.zip
+```
+```
 unzip Joomla_5-3-1-Stable-Full_Package.zip
+```
+```
 chown -R www-data:www-data /var/www/html/joomla
 ```
 
 ### 🌐 Step 4: Access Joomla Web Installer
 
 Visit:
+```
 `http://192.168.169.130/joomla`
+```
 or after SSL setup:
+```
 `https://192.168.169.130/joomla`
-
+```
 ---
 
 # 🔐 Enable HTTPS for Joomla
@@ -130,9 +143,9 @@ or after SSL setup:
 
 ```bash
 mkdir -p /etc/apache2/ssl
-openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
-  -keyout /etc/apache2/ssl/joomla.key \
-  -out /etc/apache2/ssl/joomla.crt
+```
+```
+openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/apache2/ssl/joomla.key -out /etc/apache2/ssl/joomla.crt
 ```
 
 ### 📝 Step 6: Configure Virtual Host
