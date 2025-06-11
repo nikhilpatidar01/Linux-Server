@@ -194,7 +194,7 @@
 
 
 ## 🐧 PHP, MySQL and Wordpress  🌍  
-- 🐘 [PHP ](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/CentOS/Apache%20Web%20Server/2.%20PHP%2C%20MySQL%2C%20Wordpress%20Installation%20and%20Configurartion/2.%20PHP%2C%20MySQL%20Wordpress%20Installation%20and%20Configuration/1.%20PHP%20Installation%20in%20Centos.md#what-is-php)
+- 🐘 [PHP](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/CentOS/Apache%20Web%20Server/2.%20PHP%2C%20MySQL%2C%20Wordpress%20Installation%20and%20Configurartion/2.%20PHP%2C%20MySQL%20Wordpress%20Installation%20and%20Configuration/1.%20PHP%20Installation%20in%20Centos.md#what-is-php)
 - 📝 [MySQL ](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/CentOS/Apache%20Web%20Server/2.%20PHP%2C%20MySQL%2C%20Wordpress%20Installation%20and%20Configurartion/2.%20PHP%2C%20MySQL%20Wordpress%20Installation%20and%20Configuration/2.%20MySQL%20Installation%20and%20Configuration%20in%20Centos.md#what-is-mysql)
 - 🌍 [Wordpress ](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/CentOS/Apache%20Web%20Server/2.%20PHP%2C%20MySQL%2C%20Wordpress%20Installation%20and%20Configurartion/2.%20PHP%2C%20MySQL%20Wordpress%20Installation%20and%20Configuration/3.%20WordPress%20Installation%20and%20Configuration.md#what-is-wordpress)
 - 📂 [Directory Listing on a Website](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/CentOS/Apache%20Web%20Server/2.%20PHP,%20MySQL,%20Wordpress%20Installation%20and%20Configurartion/2.%20PHP,%20MySQL%20Wordpress%20Installation%20and%20Configuration/4.%20Directory%20Listing%20on%20a%20Website.md#-apache-directory-listing-security-configuration-guide-for-centos)
@@ -203,12 +203,9 @@
 - ⚙️ [CGI Scripts (Common Gateway Interface)](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/CentOS/Apache%20Web%20Server/2.%20PHP%2C%20MySQL%2C%20Wordpress%20Installation%20and%20Configurartion/2.%20PHP%2C%20MySQL%20Wordpress%20Installation%20and%20Configuration/7.%20CGI%20Scripts%20(Common%20Gateway%20Interface).md#cgi-scripts-common-gateway-interface)
 
 ### 📦 Joomla, Moodle, and PostgreSQL
-
-- 🧩 [Joomla](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/Kali%20Linux%2C%20Debian%20and%20Ubuntu/2.%20PHP%2C%20MySQL%20Wordpress%20Installation%20and%20Configuration/Joomla.md#-joomla-installation-with-https-port-443) – Joomla installation with HTTPS on port 443
-
-- 🎓 [Moodle](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/Kali%20Linux%2C%20Debian%20and%20Ubuntu/2.%20PHP%2C%20MySQL%20Wordpress%20Installation%20and%20Configuration/Moodle.md#-moodle-installation-guide-with-https-on-port-443) – Moodle installation guide with HTTPS on port 443
-
-- 🛢️ [PostgreSQL](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/Kali%20Linux%2C%20Debian%20and%20Ubuntu/2.%20PHP%2C%20MySQL%20Wordpress%20Installation%20and%20Configuration/PostgreSQL.md#-install-and-configure-postgresql-with-ldap-debiankaliubuntu) – Install and configure PostgreSQL with LDAP on Debian/Kali/Ubuntu
+- 🧩 [Joomla](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/Kali%20Linux%2C%20Debian%20and%20Ubuntu/2.%20PHP%2C%20MySQL%20Wordpress%20Installation%20and%20Configuration/Joomla.md#-joomla-installation-with-https-port-443) 
+- 🎓 [Moodle](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/Kali%20Linux%2C%20Debian%20and%20Ubuntu/2.%20PHP%2C%20MySQL%20Wordpress%20Installation%20and%20Configuration/Moodle.md#-moodle-installation-guide-with-https-on-port-443)
+- 🛢️ [PostgreSQL](https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Apache%20Web%20Server/Kali%20Linux%2C%20Debian%20and%20Ubuntu/2.%20PHP%2C%20MySQL%20Wordpress%20Installation%20and%20Configuration/PostgreSQL.md#-install-and-configure-postgresql-with-ldap-debiankaliubuntu) 
 
 
 ## 🌐 FTP (File Transfer Protocol) Server 📁
